@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
+	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report11111111</dd:Name>
+	<Body>
+		<Height>29.7cm</Height>
+		<ReportItems>
+			<FixedPage Name="FixedPage1">
+				<Pages>
+					<Page>
+						<ReportItems>
+							<Textbox Name="郵便番号">
+								<Top>1.217cm</Top>
+								<Left>0.026cm</Left>
+								<Width>3.188cm</Width>
+								<Height>0.644cm</Height>
+								<Style>
+									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+									<Color>=Theme.Colors!Dark1</Color>
+									<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+									<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+									<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+									<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<CanGrow>true</CanGrow>
+								<Custom><ReportStyle>
+	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
+	<StyleName>Dark 1 Major</StyleName>
+</ReportStyle></Custom>
+								<Value>=Fields!POST_CODE_MT.Value</Value>
+							</Textbox>
+							<Textbox Name="TextBox1">
+								<Top>1.959cm</Top>
+								<Left>12.531cm</Left>
+								<Width>6.469cm</Width>
+								<Height>2.84cm</Height>
+								<Style>
+									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+									<Color>=Theme.Colors!Dark1</Color>
+									<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+									<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+									<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+									<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<ZIndex>1</ZIndex>
+								<CanGrow>true</CanGrow>
+								<Custom><ReportStyle>
+	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
+	<StyleName>Dark 1 Major</StyleName>
+</ReportStyle></Custom>
+								<Value>873-0421
+　大分県国東市武蔵町糸原
+　3286-3
+　ヤンマーマリンインターナショナルアジア㈱
+
+　0978-68-0893</Value>
+							</Textbox>
+							<Textbox Name="TextBox2">
+								<Top>1.933cm</Top>
+								<Left>0.396cm</Left>
+								<Width>8.189cm</Width>
+								<Height>2.285cm</Height>
+								<Style>
+									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+									<Color>=Theme.Colors!Dark1</Color>
+									<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+									<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+									<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+									<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<ZIndex>2</ZIndex>
+								<CanGrow>true</CanGrow>
+								<Custom><ReportStyle>
+	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
+	<StyleName>Dark 1 Major</StyleName>
+</ReportStyle></Custom>
+								<Value>=Fields!ADDRESS_MT.Value</Value>
+							</Textbox>
+							<Table Name="Table1">
+								<Top>8.525cm</Top>
+								<Left>0.091cm</Left>
+								<Width>9.268cm</Width>
+								<Height>2.25cm</Height>
+								<Style>
+									<Color>=Theme.Colors!Dark1</Color>
+									<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
+									<FontSize>=Theme.Fonts!MinorFont.Size</FontSize>
+									<FontStyle>=Theme.Fonts!MinorFont.Style</FontStyle>
+									<FontWeight>=Theme.Fonts!MinorFont.Weight</FontWeight>
+								</Style>
+								<ZIndex>3</ZIndex>
+								<Custom><ReportStyle>
+	<StyleId>c728fbbc-6ae5-47bd-8e20-d710772a5858</StyleId>
+	<StyleName>Light Style 1 Accent 1</StyleName>
+</ReportStyle></Custom>
+								<DataSetName>発注明細_DataSet</DataSetName>
+								<DetailDataElementOutput>Auto</DetailDataElementOutput>
+								<Header>
+									<RepeatOnNewPage>true</RepeatOnNewPage>
+									<TableRows>
+										<TableRow>
+											<Height>0.75cm</Height>
+											<TableCells>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox4">
+															<Style>
+																<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+																<Color>=Theme.Colors!Dark1</Color>
+																<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+																<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+																<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+																<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Center</TextAlign>
+																<VerticalAlign>Middle</VerticalAlign>
+																<BorderColor>
+																	<Bottom>=Theme.Colors!Accent1</Bottom>
+																	<Top>=Theme.Colors!Accent1</Top>
+																</BorderColor>
+																<BorderStyle>
+																	<Bottom>Groove</Bottom>
+																	<Left>Groove</Left>
+																	<Right>Groove</Right>
+																	<Top>Groove</Top>
+																</BorderStyle>
+																<BorderWidth>
+																	<Bottom>2pt</Bottom>
+																	<Top>2pt</Top>
+																</BorderWidth>
+															</Style>
+															<CanGrow>true</CanGrow>
+															<Value>No.</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox3">
+															<Style>
+																<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+																<Color>=Theme.Colors!Dark1</Color>
+																<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+																<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+																<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+																<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<BorderColor>
+																	<Bottom>=Theme.Colors!Accent1</Bottom>
+																	<Top>=Theme.Colors!Accent1</Top>
+																</BorderColor>
+																<BorderStyle>
+																	<Bottom>Groove</Bottom>
+																	<Left>Groove</Left>
+																	<Right>Groove</Right>
+																	<Top>Groove</Top>
+																</BorderStyle>
+																<BorderWidth>
+																	<Bottom>2pt</Bottom>
+																	<Top>2pt</Top>
+																</BorderWidth>
+															</Style>
+															<CanGrow>true</CanGrow>
+															<Value>伝票番号</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox5">
+															<Style>
+																<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+																<Color>=Theme.Colors!Dark1</Color>
+																<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+																<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+																<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+																<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<BorderColor>
+																	<Bottom>=Theme.Colors!Accent1</Bottom>
+																	<Top>=Theme.Colors!Accent1</Top>
+																</BorderColor>
+																<BorderStyle>
+																	<Bottom>Groove</Bottom>
+																	<Left>Groove</Left>
+																	<Right>Groove</Right>
+																	<Top>Groove</Top>
+																</BorderStyle>
+																<BorderWidth>
+																	<Bottom>2pt</Bottom>
+																	<Top>2pt</Top>
+																</BorderWidth>
+															</Style>
+															<CanGrow>true</CanGrow>
+															<Value>品名</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+											</TableCells>
+										</TableRow>
+									</TableRows>
+								</Header>
+								<Details>
+									<TableRows>
+										<TableRow>
+											<Height>0.75cm</Height>
+											<TableCells>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox7">
+															<Style>
+																<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+																<Color>=Theme.Colors!Dark1</Color>
+																<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
+																<FontSize>=Theme.Fonts!MinorFont.Size</FontSize>
+																<FontStyle>=Theme.Fonts!MinorFont.Style</FontStyle>
+																<FontWeight>=Theme.Fonts!MinorFont.Weight</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<BorderStyle>
+																	<Left>Groove</Left>
+																	<Right>Groove</Right>
+																</BorderStyle>
+															</Style>
+															<CanGrow>true</CanGrow>
+															<Value>=RowNumber()</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox6">
+															<Style>
+																<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+																<Color>=Theme.Colors!Dark1</Color>
+																<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
+																<FontSize>=Theme.Fonts!MinorFont.Size</FontSize>
+																<FontStyle>=Theme.Fonts!MinorFont.Style</FontStyle>
+																<FontWeight>=Theme.Fonts!MinorFont.Weight</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Center</TextAlign>
+																<BorderStyle>
+																	<Left>Groove</Left>
+																	<Right>Groove</Right>
+																</BorderStyle>
+															</Style>
+															<CanGrow>true</CanGrow>
+															<DataElementName>DENPYO_NBR</DataElementName>
+															<Value>=Fields!DENPYO_NBR.Value</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox8">
+															<Style>
+																<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+																<Color>=Theme.Colors!Dark1</Color>
+																<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
+																<FontSize>=Theme.Fonts!MinorFont.Size</FontSize>
+																<FontStyle>=Theme.Fonts!MinorFont.Style</FontStyle>
+																<FontWeight>=Theme.Fonts!MinorFont.Weight</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<BorderStyle>
+																	<Left>Groove</Left>
+																	<Right>Groove</Right>
+																</BorderStyle>
+															</Style>
+															<CanGrow>true</CanGrow>
+															<DataElementName>HINMEI</DataElementName>
+															<Value>=Fields!HINMEI.Value</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+											</TableCells>
+										</TableRow>
+									</TableRows>
+								</Details>
+								<Footer>
+									<TableRows>
+										<TableRow>
+											<Height>0.75cm</Height>
+											<TableCells>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox10">
+															<Style>
+																<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+																<Color>=Theme.Colors!Dark1</Color>
+																<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+																<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+																<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+																<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<BorderStyle>
+																	<Bottom>Groove</Bottom>
+																	<Left>Groove</Left>
+																	<Right>Groove</Right>
+																</BorderStyle>
+															</Style>
+															<CanGrow>true</CanGrow>
+															<Value />
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox9">
+															<Style>
+																<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+																<Color>=Theme.Colors!Dark1</Color>
+																<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+																<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+																<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+																<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<BorderStyle>
+																	<Bottom>Groove</Bottom>
+																	<Left>Groove</Left>
+																	<Right>Groove</Right>
+																</BorderStyle>
+															</Style>
+															<CanGrow>true</CanGrow>
+															<Value />
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox11">
+															<Style>
+																<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+																<Color>=Theme.Colors!Dark1</Color>
+																<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+																<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+																<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+																<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<BorderStyle>
+																	<Bottom>Groove</Bottom>
+																	<Left>Groove</Left>
+																	<Right>Groove</Right>
+																</BorderStyle>
+															</Style>
+															<CanGrow>true</CanGrow>
+															<Value />
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+											</TableCells>
+										</TableRow>
+									</TableRows>
+								</Footer>
+								<dd:FixedHeight xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">19.174cm</dd:FixedHeight>
+								<dd:OverflowName xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">OverflowPlaceHolder1</dd:OverflowName>
+								<TableColumns>
+									<TableColumn>
+										<Width>0.783cm</Width>
+									</TableColumn>
+									<TableColumn>
+										<Width>2.811cm</Width>
+									</TableColumn>
+									<TableColumn>
+										<Width>5.674cm</Width>
+									</TableColumn>
+								</TableColumns>
+							</Table>
+							<Textbox Name="TextBox96">
+								<Top>4.473cm</Top>
+								<Left>7.487cm</Left>
+								<Width>1.151cm</Width>
+								<Height>0.75cm</Height>
+								<Style>
+									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+									<Color>=Theme.Colors!Dark1</Color>
+									<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+									<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+									<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+									<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<ZIndex>5</ZIndex>
+								<CanGrow>true</CanGrow>
+								<Custom><ReportStyle>
+	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
+	<StyleName>Dark 1 Major</StyleName>
+</ReportStyle></Custom>
+								<Value>様</Value>
+							</Textbox>
+							<Textbox Name="TextBox97">
+								<Top>6.218cm</Top>
+								<Left>6.139cm</Left>
+								<Width>6.893cm</Width>
+								<Height>0.75cm</Height>
+								<Style>
+									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+									<Color>=Theme.Colors!Dark1</Color>
+									<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+									<FontSize>14pt</FontSize>
+									<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+									<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+									<TextAlign>Center</TextAlign>
+									<TextDecoration>Underline</TextDecoration>
+								</Style>
+								<ZIndex>6</ZIndex>
+								<CanGrow>true</CanGrow>
+								<Custom><ReportStyle>
+	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
+	<StyleName>Dark 1 Major</StyleName>
+</ReportStyle></Custom>
+								<Value>発注データ送信の件</Value>
+							</Textbox>
+							<Textbox Name="TextBox98">
+								<Top>4.473cm</Top>
+								<Left>0.423cm</Left>
+								<Width>6.945cm</Width>
+								<Height>0.75cm</Height>
+								<Style>
+									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+									<Color>=Theme.Colors!Dark1</Color>
+									<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+									<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+									<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+									<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<ZIndex>7</ZIndex>
+								<CanGrow>true</CanGrow>
+								<Custom><ReportStyle>
+	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
+	<StyleName>Dark 1 Major</StyleName>
+</ReportStyle></Custom>
+								<Value>=Fields!TORIHIKISAKI_NAME_MT.Value</Value>
+							</Textbox>
+							<OverflowPlaceHolder Name="OverflowPlaceHolder1">
+								<Height>19.174cm</Height>
+								<Left>9.49cm</Left>
+								<Top>8.526cm</Top>
+								<Width>9.51cm</Width>
+							</OverflowPlaceHolder>
+						</ReportItems>
+						<PaperOrientation>Portrait</PaperOrientation>
+						<Width>21cm</Width>
+						<Height>29.7cm</Height>
+						<LeftMargin>1cm</LeftMargin>
+						<TopMargin>1cm</TopMargin>
+						<RightMargin>1cm</RightMargin>
+						<BottomMargin>1cm</BottomMargin>
+					</Page>
+				</Pages>
+				<DataSetName>発注情報_DataSet</DataSetName>
+			</FixedPage>
+		</ReportItems>
+	</Body>
+	<BottomMargin>1cm</BottomMargin>
+	<LeftMargin>1cm</LeftMargin>
+	<RightMargin>1cm</RightMargin>
+	<TopMargin>1cm</TopMargin>
+	<PageHeight>29.7cm</PageHeight>
+	<PageWidth>21cm</PageWidth>
+	<Width>21cm</Width>
+	<DataSources>
+		<DataSource Name="発注情報">
+			<ConnectionProperties>
+				<ConnectString>jsondoc=http://localhost:12957/Forguncy/ARDataSource/GetDataSource/a8c6585b-e03c-40cf-9546-76a10b41bc2c;schemadata={"type":"array","items":{"type":"object","properties":{"HATCHU_NBR":{"type":"integer"},"HATCHU_DATE":{"type":"date-time"},"KIGYO_CODE":{"type":"integer"},"TORIHIKISAKI_CODE":{"type":"string"},"TORIHIKISAKI_NAME":{"type":"string"},"KOZA_CODE":{"type":"string"},"NONYUSAKI_CODE":{"type":"integer"},"NOKI":{"type":"date-time"},"KAITO_NOKI":{"type":"date-time"},"NOKI_KAITO_FLAG":{"type":"boolean"},"TANTOSHA_CODE":{"type":"string"},"EDI_KUBUN":{"type":"integer"},"BIKO":{"type":"string"},"TOKKI_JIKO":{"type":"string"},"MEMO":{"type":"string"},"TOROKU_TIMESTAMP":{"type":"date-time"},"TOROKUSHA_CODE":{"type":"string"},"KOSHIN_TIMESTAMP":{"type":"date-time"},"KOSHINSHA_CODE":{"type":"string"},"KIGYO_CODE_MT":{"type":"integer"},"TORIHIKISAKI_CODE_MT":{"type":"string"},"HANSHA_KIGYO_CODE_MT":{"type":"integer"},"HANSHA_TORIHIKISAKI_CODE_MT":{"type":"string"},"SHITEN_KIGYO_CODE_MT":{"type":"integer"},"SHITEN_TORIHIKISAKI_CODE_MT":{"type":"string"},"TOKUYAKUTEN_KIGYO_CODE_MT":{"type":"integer"},"TOKUYAKUTEN_TORIHIKISAKI_CODE_MT":{"type":"string"},"HANBAITEN_KIGYO_CODE_MT":{"type":"integer"},"HANBAITEN_TORIHIKISAKI_CODE_MT":{"type":"string"},"SHIZAI_CODE_MT":{"type":"string"},"TOKUISAKI_KUBUN_MT":{"type":"boolean"},"TEHAISAKI_KUBUN_MT":{"type":"boolean"},"SHOKUCHI_KUBUN_MT":{"type":"boolean"},"NAIGAI_KUBUN_MT":{"type":"string"},"CHOKUBO_TORIHIKISAKI_KUBUN_MT":{"type":"boolean"},"TORIHIKISAKI_KUBUN_MT":{"type":"integer"},"TORIHIKISAKI_NAME_MT":{"type":"string"},"TORIHIKISAKI_NAME_KATA_MT":{"type":"string"},"TORIHIKISAKI_NAME_RYAKU_MT":{"type":"string"},"COUNTRY_MT":{"type":"string"},"POST_CODE_MT":{"type":"string"},"REGION_MT":{"type":"string"},"PREFECTURE_MT":{"type":"string"},"ADDRESS_MT":{"type":"string"},"PHONE_NBR1_MT":{"type":"string"},"PHONE_NBR2_MT":{"type":"string"},"FAX_NBR1_MT":{"type":"string"},"FAX_NBR2_MT":{"type":"string"},"TANTOSHA_MAIN_MT":{"type":"string"},"BUSHO_MAIN_MT":{"type":"string"},"YAKUSHOKU_MAIN_MT":{"type":"string"},"MAIL_ADDR_MAIN_MT":{"type":"string"},"KEITAI_DENWA_MAIN_MT":{"type":"string"},"TANTOSHA_SUB_MT":{"type":"string"},"BUSHO_SUB_MT":{"type":"string"},"YAKUSHOKU_SUB_MT":{"type":"string"},"MAIL_ADDR_SUB_MT":{"type":"string"},"KEITAI_DENWA_SUB_MT":{"type":"string"},"BIKO_MT":{"type":"string"},"TANTO_EIGYO1_MT":{"type":"string"},"SUB_EIGYO2_MT":{"type":"string"},"GENKA_CODE_MT":{"type":"integer"},"JIKAN_CHARGE_MT":{"type":"integer"},"HASUSHORI_KUBUN_MT":{"type":"integer"},"KAZEI_KUBUN_MT":{"type":"integer"},"TAX_HASUSHORI_KUBUN_MT":{"type":"integer"},"SHOHIZEI_KEISAN_TANI_MT":{"type":"integer"},"WEB_HATCHU_KUBUN_MT":{"type":"boolean"},"NOHINSHO_HAKKO_KUBUN_MT":{"type":"boolean"},"KOBAI_KUBUN_MT":{"type":"integer"},"EDI_KUBUN_MT":{"type":"integer"},"EDI_HOSHIKI_MT":{"type":"date-time"},"HOJIN_MYNBR_MT":{"type":"string"},"TOROKU_BANGO_MT":{"type":"string"},"TEKIKAKU_SEIKYU_KUBUN_MT":{"type":"string"},"TOROKU_NENGETUBI_MT":{"type":"date-time"},"MUKO_NENGETUBI_MT":{"type":"date-time"},"JIGYOSHA_MESHO_MT":{"type":"string"},"TAB_ORDER_MT":{"type":"integer"},"DELETE_FLG_MT":{"type":"boolean"},"TOROKU_TIMESTAMP_MT":{"type":"date-time"},"TOROKUSHA_CODE_MT":{"type":"string"},"KOSHIN_TIMESTAMP_MT":{"type":"date-time"},"KOSHINSHA_CODE_MT":{"type":"string"}}}}</ConnectString>
+				<DataProvider>JSON</DataProvider>
+			</ConnectionProperties>
+		</DataSource>
+		<DataSource Name="発注明細">
+			<ConnectionProperties>
+				<ConnectString>jsondoc=http://localhost:12957/Forguncy/ARDataSource/GetDataSource/4c49e99c-c9b0-4d0f-94c6-67448d3e73f9;schemadata={"type":"array","items":{"type":"object","properties":{"DENPYO_NBR":{"type":"integer"},"HATCHU_NBR":{"type":"integer"},"EDABAN":{"type":"integer"},"BUHIN_KOSEI_ID":{"type":"integer"},"SEIBAN":{"type":"string"},"KO_KOBAN":{"type":"string"},"HINBAN":{"type":"string"},"ZUBAN":{"type":"string"},"NINSHIKI_NBR":{"type":"string"},"KOTEI_CODE":{"type":"string"},"KOTEI_SEQ_NBR":{"type":"integer"},"KOTEI_JUN":{"type":"integer"},"HINMEI":{"type":"string"},"KEISHIKI":{"type":"string"},"MAKER":{"type":"string"},"KOBAI_TANTO":{"type":"integer"},"UKEWATASHI_BASHO":{"type":"string"},"SHOYORYO":{"type":"number"},"SURYO":{"type":"number"},"TANKA":{"type":"number"},"KAITO_TANKA":{"type":"number"},"TSUKA_CODE":{"type":"integer"},"KAWASE_RATE":{"type":"number"},"KINGAKU":{"type":"number"},"KINGAKU_YEN":{"type":"number"},"KARI_KANRYO_FLAG":{"type":"boolean"},"KANRYO_FLAG":{"type":"boolean"},"MOTO_HATCHU_NBR":{"type":"integer"},"MATOMESAKI_NBR":{"type":"integer"},"SHINSEI_NBR":{"type":"integer"},"SHINSEI_DATE":{"type":"date-time"},"UPLOAD_STATUS":{"type":"integer"},"DELETE_FLG":{"type":"boolean"},"SHOHIN_FLG":{"type":"boolean"},"KOBAI_KUBUN":{"type":"integer"},"KAKUTEI_CHUMON_RENKEI_FLAG":{"type":"boolean"},"TOROKU_TIMESTAMP":{"type":"date-time"},"TOROKUSHA_CODE":{"type":"string"},"KOSHIN_TIMESTAMP":{"type":"date-time"},"KOSHINSHA_CODE":{"type":"string"}}}}</ConnectString>
+				<DataProvider>JSON</DataProvider>
+			</ConnectionProperties>
+		</DataSource>
+	</DataSources>
+	<DataSets>
+		<DataSet Name="発注情報_DataSet">
+			<Fields>
+				<Field Name="HATCHU_NBR">
+					<DataField>HATCHU_NBR</DataField>
+				</Field>
+				<Field Name="HATCHU_DATE">
+					<DataField>HATCHU_DATE</DataField>
+				</Field>
+				<Field Name="KIGYO_CODE">
+					<DataField>KIGYO_CODE</DataField>
+				</Field>
+				<Field Name="TORIHIKISAKI_CODE">
+					<DataField>TORIHIKISAKI_CODE</DataField>
+				</Field>
+				<Field Name="TORIHIKISAKI_NAME">
+					<DataField>TORIHIKISAKI_NAME</DataField>
+				</Field>
+				<Field Name="KOZA_CODE">
+					<DataField>KOZA_CODE</DataField>
+				</Field>
+				<Field Name="NONYUSAKI_CODE">
+					<DataField>NONYUSAKI_CODE</DataField>
+				</Field>
+				<Field Name="NOKI">
+					<DataField>NOKI</DataField>
+				</Field>
+				<Field Name="KAITO_NOKI">
+					<DataField>KAITO_NOKI</DataField>
+				</Field>
+				<Field Name="NOKI_KAITO_FLAG">
+					<DataField>NOKI_KAITO_FLAG</DataField>
+				</Field>
+				<Field Name="TANTOSHA_CODE">
+					<DataField>TANTOSHA_CODE</DataField>
+				</Field>
+				<Field Name="EDI_KUBUN">
+					<DataField>EDI_KUBUN</DataField>
+				</Field>
+				<Field Name="BIKO">
+					<DataField>BIKO</DataField>
+				</Field>
+				<Field Name="TOKKI_JIKO">
+					<DataField>TOKKI_JIKO</DataField>
+				</Field>
+				<Field Name="MEMO">
+					<DataField>MEMO</DataField>
+				</Field>
+				<Field Name="TOROKU_TIMESTAMP">
+					<DataField>TOROKU_TIMESTAMP</DataField>
+				</Field>
+				<Field Name="TOROKUSHA_CODE">
+					<DataField>TOROKUSHA_CODE</DataField>
+				</Field>
+				<Field Name="KOSHIN_TIMESTAMP">
+					<DataField>KOSHIN_TIMESTAMP</DataField>
+				</Field>
+				<Field Name="KOSHINSHA_CODE">
+					<DataField>KOSHINSHA_CODE</DataField>
+				</Field>
+				<Field Name="KIGYO_CODE_MT">
+					<DataField>KIGYO_CODE_MT</DataField>
+				</Field>
+				<Field Name="TORIHIKISAKI_CODE_MT">
+					<DataField>TORIHIKISAKI_CODE_MT</DataField>
+				</Field>
+				<Field Name="HANSHA_KIGYO_CODE_MT">
+					<DataField>HANSHA_KIGYO_CODE_MT</DataField>
+				</Field>
+				<Field Name="HANSHA_TORIHIKISAKI_CODE_MT">
+					<DataField>HANSHA_TORIHIKISAKI_CODE_MT</DataField>
+				</Field>
+				<Field Name="SHITEN_KIGYO_CODE_MT">
+					<DataField>SHITEN_KIGYO_CODE_MT</DataField>
+				</Field>
+				<Field Name="SHITEN_TORIHIKISAKI_CODE_MT">
+					<DataField>SHITEN_TORIHIKISAKI_CODE_MT</DataField>
+				</Field>
+				<Field Name="TOKUYAKUTEN_KIGYO_CODE_MT">
+					<DataField>TOKUYAKUTEN_KIGYO_CODE_MT</DataField>
+				</Field>
+				<Field Name="TOKUYAKUTEN_TORIHIKISAKI_CODE_MT">
+					<DataField>TOKUYAKUTEN_TORIHIKISAKI_CODE_MT</DataField>
+				</Field>
+				<Field Name="HANBAITEN_KIGYO_CODE_MT">
+					<DataField>HANBAITEN_KIGYO_CODE_MT</DataField>
+				</Field>
+				<Field Name="HANBAITEN_TORIHIKISAKI_CODE_MT">
+					<DataField>HANBAITEN_TORIHIKISAKI_CODE_MT</DataField>
+				</Field>
+				<Field Name="SHIZAI_CODE_MT">
+					<DataField>SHIZAI_CODE_MT</DataField>
+				</Field>
+				<Field Name="TOKUISAKI_KUBUN_MT">
+					<DataField>TOKUISAKI_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="TEHAISAKI_KUBUN_MT">
+					<DataField>TEHAISAKI_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="SHOKUCHI_KUBUN_MT">
+					<DataField>SHOKUCHI_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="NAIGAI_KUBUN_MT">
+					<DataField>NAIGAI_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="CHOKUBO_TORIHIKISAKI_KUBUN_MT">
+					<DataField>CHOKUBO_TORIHIKISAKI_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="TORIHIKISAKI_KUBUN_MT">
+					<DataField>TORIHIKISAKI_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="TORIHIKISAKI_NAME_MT">
+					<DataField>TORIHIKISAKI_NAME_MT</DataField>
+				</Field>
+				<Field Name="TORIHIKISAKI_NAME_KATA_MT">
+					<DataField>TORIHIKISAKI_NAME_KATA_MT</DataField>
+				</Field>
+				<Field Name="TORIHIKISAKI_NAME_RYAKU_MT">
+					<DataField>TORIHIKISAKI_NAME_RYAKU_MT</DataField>
+				</Field>
+				<Field Name="COUNTRY_MT">
+					<DataField>COUNTRY_MT</DataField>
+				</Field>
+				<Field Name="POST_CODE_MT">
+					<DataField>POST_CODE_MT</DataField>
+				</Field>
+				<Field Name="REGION_MT">
+					<DataField>REGION_MT</DataField>
+				</Field>
+				<Field Name="PREFECTURE_MT">
+					<DataField>PREFECTURE_MT</DataField>
+				</Field>
+				<Field Name="ADDRESS_MT">
+					<DataField>ADDRESS_MT</DataField>
+				</Field>
+				<Field Name="PHONE_NBR1_MT">
+					<DataField>PHONE_NBR1_MT</DataField>
+				</Field>
+				<Field Name="PHONE_NBR2_MT">
+					<DataField>PHONE_NBR2_MT</DataField>
+				</Field>
+				<Field Name="FAX_NBR1_MT">
+					<DataField>FAX_NBR1_MT</DataField>
+				</Field>
+				<Field Name="FAX_NBR2_MT">
+					<DataField>FAX_NBR2_MT</DataField>
+				</Field>
+				<Field Name="TANTOSHA_MAIN_MT">
+					<DataField>TANTOSHA_MAIN_MT</DataField>
+				</Field>
+				<Field Name="BUSHO_MAIN_MT">
+					<DataField>BUSHO_MAIN_MT</DataField>
+				</Field>
+				<Field Name="YAKUSHOKU_MAIN_MT">
+					<DataField>YAKUSHOKU_MAIN_MT</DataField>
+				</Field>
+				<Field Name="MAIL_ADDR_MAIN_MT">
+					<DataField>MAIL_ADDR_MAIN_MT</DataField>
+				</Field>
+				<Field Name="KEITAI_DENWA_MAIN_MT">
+					<DataField>KEITAI_DENWA_MAIN_MT</DataField>
+				</Field>
+				<Field Name="TANTOSHA_SUB_MT">
+					<DataField>TANTOSHA_SUB_MT</DataField>
+				</Field>
+				<Field Name="BUSHO_SUB_MT">
+					<DataField>BUSHO_SUB_MT</DataField>
+				</Field>
+				<Field Name="YAKUSHOKU_SUB_MT">
+					<DataField>YAKUSHOKU_SUB_MT</DataField>
+				</Field>
+				<Field Name="MAIL_ADDR_SUB_MT">
+					<DataField>MAIL_ADDR_SUB_MT</DataField>
+				</Field>
+				<Field Name="KEITAI_DENWA_SUB_MT">
+					<DataField>KEITAI_DENWA_SUB_MT</DataField>
+				</Field>
+				<Field Name="BIKO_MT">
+					<DataField>BIKO_MT</DataField>
+				</Field>
+				<Field Name="TANTO_EIGYO1_MT">
+					<DataField>TANTO_EIGYO1_MT</DataField>
+				</Field>
+				<Field Name="SUB_EIGYO2_MT">
+					<DataField>SUB_EIGYO2_MT</DataField>
+				</Field>
+				<Field Name="GENKA_CODE_MT">
+					<DataField>GENKA_CODE_MT</DataField>
+				</Field>
+				<Field Name="JIKAN_CHARGE_MT">
+					<DataField>JIKAN_CHARGE_MT</DataField>
+				</Field>
+				<Field Name="HASUSHORI_KUBUN_MT">
+					<DataField>HASUSHORI_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="KAZEI_KUBUN_MT">
+					<DataField>KAZEI_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="TAX_HASUSHORI_KUBUN_MT">
+					<DataField>TAX_HASUSHORI_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="SHOHIZEI_KEISAN_TANI_MT">
+					<DataField>SHOHIZEI_KEISAN_TANI_MT</DataField>
+				</Field>
+				<Field Name="WEB_HATCHU_KUBUN_MT">
+					<DataField>WEB_HATCHU_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="NOHINSHO_HAKKO_KUBUN_MT">
+					<DataField>NOHINSHO_HAKKO_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="KOBAI_KUBUN_MT">
+					<DataField>KOBAI_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="EDI_KUBUN_MT">
+					<DataField>EDI_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="EDI_HOSHIKI_MT">
+					<DataField>EDI_HOSHIKI_MT</DataField>
+				</Field>
+				<Field Name="HOJIN_MYNBR_MT">
+					<DataField>HOJIN_MYNBR_MT</DataField>
+				</Field>
+				<Field Name="TOROKU_BANGO_MT">
+					<DataField>TOROKU_BANGO_MT</DataField>
+				</Field>
+				<Field Name="TEKIKAKU_SEIKYU_KUBUN_MT">
+					<DataField>TEKIKAKU_SEIKYU_KUBUN_MT</DataField>
+				</Field>
+				<Field Name="TOROKU_NENGETUBI_MT">
+					<DataField>TOROKU_NENGETUBI_MT</DataField>
+				</Field>
+				<Field Name="MUKO_NENGETUBI_MT">
+					<DataField>MUKO_NENGETUBI_MT</DataField>
+				</Field>
+				<Field Name="JIGYOSHA_MESHO_MT">
+					<DataField>JIGYOSHA_MESHO_MT</DataField>
+				</Field>
+				<Field Name="TAB_ORDER_MT">
+					<DataField>TAB_ORDER_MT</DataField>
+				</Field>
+				<Field Name="DELETE_FLG_MT">
+					<DataField>DELETE_FLG_MT</DataField>
+				</Field>
+				<Field Name="TOROKU_TIMESTAMP_MT">
+					<DataField>TOROKU_TIMESTAMP_MT</DataField>
+				</Field>
+				<Field Name="TOROKUSHA_CODE_MT">
+					<DataField>TOROKUSHA_CODE_MT</DataField>
+				</Field>
+				<Field Name="KOSHIN_TIMESTAMP_MT">
+					<DataField>KOSHIN_TIMESTAMP_MT</DataField>
+				</Field>
+				<Field Name="KOSHINSHA_CODE_MT">
+					<DataField>KOSHINSHA_CODE_MT</DataField>
+				</Field>
+			</Fields>
+			<Query>
+				<CommandText>$.[*]</CommandText>
+				<DataSourceName>発注情報</DataSourceName>
+			</Query>
+		</DataSet>
+		<DataSet Name="発注明細_DataSet">
+			<Fields>
+				<Field Name="DENPYO_NBR">
+					<DataField>DENPYO_NBR</DataField>
+				</Field>
+				<Field Name="HATCHU_NBR">
+					<DataField>HATCHU_NBR</DataField>
+				</Field>
+				<Field Name="EDABAN">
+					<DataField>EDABAN</DataField>
+				</Field>
+				<Field Name="BUHIN_KOSEI_ID">
+					<DataField>BUHIN_KOSEI_ID</DataField>
+				</Field>
+				<Field Name="SEIBAN">
+					<DataField>SEIBAN</DataField>
+				</Field>
+				<Field Name="KO_KOBAN">
+					<DataField>KO_KOBAN</DataField>
+				</Field>
+				<Field Name="HINBAN">
+					<DataField>HINBAN</DataField>
+				</Field>
+				<Field Name="ZUBAN">
+					<DataField>ZUBAN</DataField>
+				</Field>
+				<Field Name="NINSHIKI_NBR">
+					<DataField>NINSHIKI_NBR</DataField>
+				</Field>
+				<Field Name="KOTEI_CODE">
+					<DataField>KOTEI_CODE</DataField>
+				</Field>
+				<Field Name="KOTEI_SEQ_NBR">
+					<DataField>KOTEI_SEQ_NBR</DataField>
+				</Field>
+				<Field Name="KOTEI_JUN">
+					<DataField>KOTEI_JUN</DataField>
+				</Field>
+				<Field Name="HINMEI">
+					<DataField>HINMEI</DataField>
+				</Field>
+				<Field Name="KEISHIKI">
+					<DataField>KEISHIKI</DataField>
+				</Field>
+				<Field Name="MAKER">
+					<DataField>MAKER</DataField>
+				</Field>
+				<Field Name="KOBAI_TANTO">
+					<DataField>KOBAI_TANTO</DataField>
+				</Field>
+				<Field Name="UKEWATASHI_BASHO">
+					<DataField>UKEWATASHI_BASHO</DataField>
+				</Field>
+				<Field Name="SHOYORYO">
+					<DataField>SHOYORYO</DataField>
+				</Field>
+				<Field Name="SURYO">
+					<DataField>SURYO</DataField>
+				</Field>
+				<Field Name="TANKA">
+					<DataField>TANKA</DataField>
+				</Field>
+				<Field Name="KAITO_TANKA">
+					<DataField>KAITO_TANKA</DataField>
+				</Field>
+				<Field Name="TSUKA_CODE">
+					<DataField>TSUKA_CODE</DataField>
+				</Field>
+				<Field Name="KAWASE_RATE">
+					<DataField>KAWASE_RATE</DataField>
+				</Field>
+				<Field Name="KINGAKU">
+					<DataField>KINGAKU</DataField>
+				</Field>
+				<Field Name="KINGAKU_YEN">
+					<DataField>KINGAKU_YEN</DataField>
+				</Field>
+				<Field Name="KARI_KANRYO_FLAG">
+					<DataField>KARI_KANRYO_FLAG</DataField>
+				</Field>
+				<Field Name="KANRYO_FLAG">
+					<DataField>KANRYO_FLAG</DataField>
+				</Field>
+				<Field Name="MOTO_HATCHU_NBR">
+					<DataField>MOTO_HATCHU_NBR</DataField>
+				</Field>
+				<Field Name="MATOMESAKI_NBR">
+					<DataField>MATOMESAKI_NBR</DataField>
+				</Field>
+				<Field Name="SHINSEI_NBR">
+					<DataField>SHINSEI_NBR</DataField>
+				</Field>
+				<Field Name="SHINSEI_DATE">
+					<DataField>SHINSEI_DATE</DataField>
+				</Field>
+				<Field Name="UPLOAD_STATUS">
+					<DataField>UPLOAD_STATUS</DataField>
+				</Field>
+				<Field Name="DELETE_FLG">
+					<DataField>DELETE_FLG</DataField>
+				</Field>
+				<Field Name="SHOHIN_FLG">
+					<DataField>SHOHIN_FLG</DataField>
+				</Field>
+				<Field Name="KOBAI_KUBUN">
+					<DataField>KOBAI_KUBUN</DataField>
+				</Field>
+				<Field Name="KAKUTEI_CHUMON_RENKEI_FLAG">
+					<DataField>KAKUTEI_CHUMON_RENKEI_FLAG</DataField>
+				</Field>
+				<Field Name="TOROKU_TIMESTAMP">
+					<DataField>TOROKU_TIMESTAMP</DataField>
+				</Field>
+				<Field Name="TOROKUSHA_CODE">
+					<DataField>TOROKUSHA_CODE</DataField>
+				</Field>
+				<Field Name="KOSHIN_TIMESTAMP">
+					<DataField>KOSHIN_TIMESTAMP</DataField>
+				</Field>
+				<Field Name="KOSHINSHA_CODE">
+					<DataField>KOSHINSHA_CODE</DataField>
+				</Field>
+			</Fields>
+			<Query>
+				<CommandText>$.[*]</CommandText>
+				<DataSourceName>発注明細</DataSourceName>
+			</Query>
+		</DataSet>
+	</DataSets>
+	<CustomProperties>
+		<CustomProperty>
+			<Name>DisplayType</Name>
+			<Value>Page</Value>
+		</CustomProperty>
+		<CustomProperty>
+			<Name>SizeType</Name>
+			<Value>Default</Value>
+		</CustomProperty>
+		<CustomProperty>
+			<Name>PaperOrientation</Name>
+			<Value>Portrait</Value>
+		</CustomProperty>
+	</CustomProperties>
+	<dd:ReportThemes xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">
+		<ThemeUri>DefaultTheme.rdlx-theme</ThemeUri>
+	</dd:ReportThemes>
+</Report>

@@ -1,0 +1,38 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "(YWdOdb2E5ac"
+  },
+  "ShareCommandContainers": [],
+  "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [],
+  "WebSitePort": 12957,
+  "UserServicePort": 41059,
+  "StartPage": "発注情報一覧画面 (2)",
+  "StartDateFiscalYear": 4,
+  "BaseOnStartingMonth": true,
+  "MultipleLanguageSettings": {
+    "Languages": [
+      {
+        "Name": "ja",
+        "IsDefault": true,
+        "Description": "組み込みの日本語は削除できません。",
+        "IsBuildIn": true,
+        "LanguageAttribute": "ja",
+        "FontFamily": "Body"
+      },
+      {
+        "Name": "en",
+        "Description": "組み込みの英語は削除できません。",
+        "IsBuildIn": true,
+        "LanguageAttribute": "en",
+        "FontFamily": "Calibri"
+      }
+    ],
+    "PublicResource": {},
+    "RuntimeBuiltInResource": {
+      "FrontEndResources": {},
+      "ServerResources": {}
+    },
+    "PluginResource": {}
+  }
+}

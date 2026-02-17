@@ -1,0 +1,183 @@
+{
+  "Name": "レポート1",
+  "DataSources": [
+    {
+      "Name": "受注明細",
+      "GUID": "3224a04f-1379-4ec7-ab82-6d4176753000",
+      "DataSourceSetting": {
+        "TableName": "ymia_v_tjuchum",
+        "BindingInfos": [
+          {
+            "GUID": "edd4c9b9-58cb-4788-a04d-7a09111fab1c",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "JUCHU_NBR",
+              "GUID": "b90012a1-7630-4e2d-bb0b-bf0096d51096"
+            },
+            "ColumnName": "JUCHU_NBR"
+          },
+          {
+            "GUID": "fb8773d5-d346-464b-9728-74192cb9eac3",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "HINBAN",
+              "GUID": "f004e08d-e4aa-493d-ace8-165345d5f9b6"
+            },
+            "ColumnName": "HINBAN"
+          },
+          {
+            "GUID": "e1b454ab-20a8-495b-a504-08d6a994f8f8",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "HINMEI",
+              "GUID": "7ede4c51-ddc5-4daf-a5f0-69763c4e8f13"
+            },
+            "ColumnName": "HINMEI"
+          },
+          {
+            "GUID": "229ab8a8-9022-4fb7-89b2-402da07cccb4",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "KEISHIKI",
+              "GUID": "efcdae8c-6b5f-4a19-b809-e68e02cbca7e"
+            },
+            "ColumnName": "KEISHIKI"
+          },
+          {
+            "GUID": "fce6fba0-971a-4cc5-bbaf-b3e44a20c1b1",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "TANI_CODE",
+              "GUID": "936152aa-b0fb-425f-a928-cca76a21cea3"
+            },
+            "ColumnName": "TANI_CODE"
+          },
+          {
+            "GUID": "b35a69a2-0b5f-4bf1-bfd6-c8541f87e395",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "HANBAI_TANKA",
+              "GUID": "c2ab1b79-746c-416a-96ea-0a32861604e0"
+            },
+            "ColumnName": "HANBAI_TANKA"
+          },
+          {
+            "GUID": "5b28713d-bff6-4de6-9230-9414b5f432cc",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "TEHAI_KOBAN",
+              "GUID": "0a73ce51-b186-49a2-a570-d36385ff404a"
+            },
+            "ColumnName": "TEHAI_KOBAN"
+          },
+          {
+            "GUID": "16372257-527f-422f-bf65-9712b34e5870",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "IRAI_DATE",
+              "GUID": "4a9cf19e-421a-4ad8-a961-feb41cbd0b3a"
+            },
+            "ColumnName": "IRAI_DATE"
+          },
+          {
+            "GUID": "c658b9df-cce8-4768-972e-bfc901d0d9e1",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "KIBO_NOKI",
+              "GUID": "b18445ac-638e-46b1-a426-fe375c6fe4d0"
+            },
+            "ColumnName": "KIBO_NOKI"
+          },
+          {
+            "GUID": "7b06b63d-459d-4dda-baff-b8949098ec63",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "CHUMONSHO_NBR",
+              "GUID": "5dbc72a6-d953-43e8-b7b6-809ec5a66e1e"
+            },
+            "ColumnName": "CHUMONSHO_NBR"
+          },
+          {
+            "GUID": "70e948b9-f87e-452b-9329-e6bd293eeaa7",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "URIAGE_SU",
+              "GUID": "bfffceab-579f-410d-8883-89dd42c970c1"
+            },
+            "ColumnName": "URIAGE_SU"
+          },
+          {
+            "GUID": "30f579f7-b48a-4433-9e3e-ae8c9d408f93",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "NONYUSAKI_MESHO",
+              "GUID": "f48b8065-2f5c-43ab-8315-5917809f1b20"
+            },
+            "ColumnName": "NONYUSAKI_MESHO"
+          },
+          {
+            "GUID": "e8e54ea7-c6cc-43ed-a8d0-124d593bd086",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "DENSHU",
+              "GUID": "e410c3ca-4c26-494d-9907-57305d60cf9e"
+            },
+            "ColumnName": "DENSHU"
+          },
+          {
+            "GUID": "3d879ecd-5dbd-4ea8-b052-8439ebf54b35",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "TANABAN",
+              "GUID": "c92496bb-e94f-467d-93ab-8a6c50671be2"
+            },
+            "ColumnName": "TANABAN"
+          }
+        ]
+      },
+      "ReportDataSourceParams": [
+        {
+          "Name": "受注番号"
+        }
+      ],
+      "ColumnsType": [
+        "integer",
+        "string",
+        "string",
+        "string",
+        "integer",
+        "number",
+        "string",
+        "date-time",
+        "date-time",
+        "string",
+        "number",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "activeReportPermissionType": 1,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "activeReportPermissionType": 2,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  }
+}

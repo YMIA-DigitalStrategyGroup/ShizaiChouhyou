@@ -1,0 +1,1323 @@
+{
+  "Name": "発注書 (2)",
+  "DataSources": [
+    {
+      "Name": "発注情報",
+      "GUID": "a8c6585b-e03c-40cf-9546-76a10b41bc2c",
+      "DataSourceSetting": {
+        "TableName": "ymia_v_thatchu",
+        "BindingInfos": [
+          {
+            "GUID": "b609c7ca-4406-439b-919e-4af3312b3178",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "HATCHU_NBR",
+              "GUID": "4643f048-2a2b-47b9-87f6-239c27342a4b"
+            },
+            "ColumnName": "HATCHU_NBR"
+          },
+          {
+            "GUID": "e689f922-819b-4445-bae4-8b324dc24593",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "HATCHU_DATE",
+              "GUID": "271f4f5d-1b98-4f46-856b-b7a71d439a46"
+            },
+            "ColumnName": "HATCHU_DATE"
+          },
+          {
+            "GUID": "2af25d5a-42fd-4efb-8c18-1db11134dfc2",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "KIGYO_CODE",
+              "GUID": "07e89224-ff3d-4af1-9006-15b549db5007"
+            },
+            "ColumnName": "KIGYO_CODE"
+          },
+          {
+            "GUID": "9d3bf73f-45dd-44e2-9b4d-99fe50792513",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TORIHIKISAKI_CODE",
+              "GUID": "d54a7ec8-5a3f-4386-82c3-bb5624ee2a5d"
+            },
+            "ColumnName": "TORIHIKISAKI_CODE"
+          },
+          {
+            "GUID": "f7d83a87-529c-4f40-8ac1-7afe0c84fa9c",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TORIHIKISAKI_NAME",
+              "GUID": "ee7805fe-580c-4b7b-a6fd-a8e928ecddaf"
+            },
+            "ColumnName": "TORIHIKISAKI_NAME"
+          },
+          {
+            "GUID": "f8c76ca1-cb4a-43f5-a88e-15614ab204f1",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "KOZA_CODE",
+              "GUID": "8d1403ec-9e51-4e33-a11c-3192557f3da6"
+            },
+            "ColumnName": "KOZA_CODE"
+          },
+          {
+            "GUID": "dc48fd23-2f91-4e48-b052-d5f42731fb02",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "NONYUSAKI_CODE",
+              "GUID": "9b4f0f3f-8969-48a5-b67e-71d2855ebf36"
+            },
+            "ColumnName": "NONYUSAKI_CODE"
+          },
+          {
+            "GUID": "23ca7dc1-2de9-4cfb-9106-8b704321c53a",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "NOKI",
+              "GUID": "4eb9ec66-c450-4439-b2b4-19776fcb0821"
+            },
+            "ColumnName": "NOKI"
+          },
+          {
+            "GUID": "fe3b4a2f-9d8e-4ecf-80bf-76ee267a9397",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "KAITO_NOKI",
+              "GUID": "71147b7d-19d0-4120-b40a-ec7043fdd42f"
+            },
+            "ColumnName": "KAITO_NOKI"
+          },
+          {
+            "GUID": "6545edaa-845b-49a5-ae19-a0d51fb0e840",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "NOKI_KAITO_FLAG",
+              "GUID": "871b1f25-45b7-428f-b07c-354cef70938c"
+            },
+            "ColumnName": "NOKI_KAITO_FLAG"
+          },
+          {
+            "GUID": "0fe347c1-1cc5-4478-aa24-183c4ef61e09",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TANTOSHA_CODE",
+              "GUID": "039eaf80-0ea2-441a-9f95-f223ffa956b8"
+            },
+            "ColumnName": "TANTOSHA_CODE"
+          },
+          {
+            "GUID": "629ee241-d573-4a1a-a369-74611857be88",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "EDI_KUBUN",
+              "GUID": "e053a9ee-cc3e-4699-a74f-10f4a9f19ee9"
+            },
+            "ColumnName": "EDI_KUBUN"
+          },
+          {
+            "GUID": "fde454d9-6745-4fcb-913f-d871681f6ebb",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "BIKO",
+              "GUID": "e40e38e7-7246-499f-b595-a76dc1635953"
+            },
+            "ColumnName": "BIKO"
+          },
+          {
+            "GUID": "2fd87fa3-7cdf-4405-87a9-698e4e1a0c23",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TOKKI_JIKO",
+              "GUID": "d63ca033-8cc5-441f-816a-bed9373a4e3c"
+            },
+            "ColumnName": "TOKKI_JIKO"
+          },
+          {
+            "GUID": "4f316bd4-4db8-4810-832d-66c04be0261f",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "MEMO",
+              "GUID": "9dac2114-78c1-4c9d-8e36-dff6d10e73ce"
+            },
+            "ColumnName": "MEMO"
+          },
+          {
+            "GUID": "2330a89d-8735-48b1-a698-ace6a75aaa4d",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TOROKU_TIMESTAMP",
+              "GUID": "75ebdfe6-ce2d-48a4-8215-467a6787d983"
+            },
+            "ColumnName": "TOROKU_TIMESTAMP"
+          },
+          {
+            "GUID": "c80b3bf8-5e3e-4961-b2f8-2d8ed5d97d0a",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TOROKUSHA_CODE",
+              "GUID": "167bcdf6-6e1e-4e94-a480-a74297d92c41"
+            },
+            "ColumnName": "TOROKUSHA_CODE"
+          },
+          {
+            "GUID": "7c8022e7-3128-448c-8222-dd57945042e4",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "KOSHIN_TIMESTAMP",
+              "GUID": "507fe29a-6257-436b-ab9e-87b909c3a7aa"
+            },
+            "ColumnName": "KOSHIN_TIMESTAMP"
+          },
+          {
+            "GUID": "ef72bb63-aee5-4dc6-9836-1e2fd1825ae9",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "KOSHINSHA_CODE",
+              "GUID": "63540d6b-5fe0-45cf-8e2e-6246d9d58abd"
+            },
+            "ColumnName": "KOSHINSHA_CODE"
+          },
+          {
+            "GUID": "9e9c7f20-9440-421d-8079-6e48368d3a04",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "KIGYO_CODE_MT",
+              "GUID": "f16160bf-2070-4415-be30-4f2db13c30cb"
+            },
+            "ColumnName": "KIGYO_CODE_MT"
+          },
+          {
+            "GUID": "19394c20-493e-4681-bfc5-3557e27d32d7",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TORIHIKISAKI_CODE_MT",
+              "GUID": "73f1b5bd-59c1-430c-a16e-140628041986"
+            },
+            "ColumnName": "TORIHIKISAKI_CODE_MT"
+          },
+          {
+            "GUID": "286d2a1f-2fa7-466b-bc9b-8c152f8d7bd1",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "HANSHA_KIGYO_CODE_MT",
+              "GUID": "cf37a0b5-c8af-4316-babb-528eafd3d4ff"
+            },
+            "ColumnName": "HANSHA_KIGYO_CODE_MT"
+          },
+          {
+            "GUID": "84b67cfb-0509-4f48-8288-073b5e5e2d48",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "HANSHA_TORIHIKISAKI_CODE_MT",
+              "GUID": "7f2e3cbd-5ddf-47ed-8a7b-96902ad7b2bb"
+            },
+            "ColumnName": "HANSHA_TORIHIKISAKI_CODE_MT"
+          },
+          {
+            "GUID": "30d5e1ad-0733-4788-a3af-6ee70f3c355d",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "SHITEN_KIGYO_CODE_MT",
+              "GUID": "824addb6-5f0f-472f-829d-3ed03084bbea"
+            },
+            "ColumnName": "SHITEN_KIGYO_CODE_MT"
+          },
+          {
+            "GUID": "4851eca3-316b-4e8c-bc91-ab1732217040",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "SHITEN_TORIHIKISAKI_CODE_MT",
+              "GUID": "15db0c7a-8bb2-442d-840f-c5c6b8086ab7"
+            },
+            "ColumnName": "SHITEN_TORIHIKISAKI_CODE_MT"
+          },
+          {
+            "GUID": "b2ac0690-a1d3-4f07-9521-2c0e11507cc5",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TOKUYAKUTEN_KIGYO_CODE_MT",
+              "GUID": "d7cd6e84-c9cb-42cc-b1d6-f7bb7ff71ebf"
+            },
+            "ColumnName": "TOKUYAKUTEN_KIGYO_CODE_MT"
+          },
+          {
+            "GUID": "8f1b7970-ae17-474c-bfdd-ea857f73be8d",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TOKUYAKUTEN_TORIHIKISAKI_CODE_MT",
+              "GUID": "e9cb3803-3c6e-437c-8c4f-ddc81acffc1d"
+            },
+            "ColumnName": "TOKUYAKUTEN_TORIHIKISAKI_CODE_MT"
+          },
+          {
+            "GUID": "e395b785-e61d-4f2e-8b28-519caa3933ba",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "HANBAITEN_KIGYO_CODE_MT",
+              "GUID": "1938ab28-ec07-4980-82dc-1166dceb618d"
+            },
+            "ColumnName": "HANBAITEN_KIGYO_CODE_MT"
+          },
+          {
+            "GUID": "b3bec1d1-4e74-4c97-adde-33d7769b6ffd",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "HANBAITEN_TORIHIKISAKI_CODE_MT",
+              "GUID": "3de6eb77-d5c4-47bc-a055-3a564f0ad9bc"
+            },
+            "ColumnName": "HANBAITEN_TORIHIKISAKI_CODE_MT"
+          },
+          {
+            "GUID": "bc6c025d-fd29-4e61-b356-759878a2946e",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "SHIZAI_CODE_MT",
+              "GUID": "e15a6a7d-1661-4e29-9f4b-534e0cd14a7c"
+            },
+            "ColumnName": "SHIZAI_CODE_MT"
+          },
+          {
+            "GUID": "354ca76a-1c0e-4c0d-870a-172ce1ad11ba",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TOKUISAKI_KUBUN_MT",
+              "GUID": "c9c8351c-8421-485e-8c46-a7bccaa18e00"
+            },
+            "ColumnName": "TOKUISAKI_KUBUN_MT"
+          },
+          {
+            "GUID": "98956462-3410-466d-ba65-dbdbf3292e30",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TEHAISAKI_KUBUN_MT",
+              "GUID": "faedc8f3-99b5-4d10-a603-a43153dfc6ea"
+            },
+            "ColumnName": "TEHAISAKI_KUBUN_MT"
+          },
+          {
+            "GUID": "a7b277d0-a4df-4b65-86a7-7fd3a3521084",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "SHOKUCHI_KUBUN_MT",
+              "GUID": "0db8645c-1512-40a9-b703-0041e5379e0b"
+            },
+            "ColumnName": "SHOKUCHI_KUBUN_MT"
+          },
+          {
+            "GUID": "d21c5e90-df08-4bdb-b3d7-fe7f91f5314f",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "NAIGAI_KUBUN_MT",
+              "GUID": "847763ee-37cc-4226-9bce-388f42a37207"
+            },
+            "ColumnName": "NAIGAI_KUBUN_MT"
+          },
+          {
+            "GUID": "ee09474b-9e5f-4869-8b35-fe2dbf4df7cd",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "CHOKUBO_TORIHIKISAKI_KUBUN_MT",
+              "GUID": "8a861031-0780-4ba1-8f93-663ba0d6b629"
+            },
+            "ColumnName": "CHOKUBO_TORIHIKISAKI_KUBUN_MT"
+          },
+          {
+            "GUID": "efba3a70-1f7e-4409-936b-7702f27beb54",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TORIHIKISAKI_KUBUN_MT",
+              "GUID": "96c933bb-d31e-4d1c-8346-1ee52c2616f3"
+            },
+            "ColumnName": "TORIHIKISAKI_KUBUN_MT"
+          },
+          {
+            "GUID": "5f2188a6-0e40-4e23-8820-9f2f05bb803c",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TORIHIKISAKI_NAME_MT",
+              "GUID": "90acbba7-8bb3-4072-82cb-7a85f26093bc"
+            },
+            "ColumnName": "TORIHIKISAKI_NAME_MT"
+          },
+          {
+            "GUID": "342c6164-e433-47b9-9493-571a28e7779b",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TORIHIKISAKI_NAME_KATA_MT",
+              "GUID": "19c3242f-6dde-4a4a-896c-bac83b958c38"
+            },
+            "ColumnName": "TORIHIKISAKI_NAME_KATA_MT"
+          },
+          {
+            "GUID": "814f66bc-6af7-43ce-a6cc-2ff20b939ecd",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TORIHIKISAKI_NAME_RYAKU_MT",
+              "GUID": "4e99b7d9-9aea-4e8f-8a24-b00dc51ba815"
+            },
+            "ColumnName": "TORIHIKISAKI_NAME_RYAKU_MT"
+          },
+          {
+            "GUID": "9c15e71e-d518-4214-b58d-240f31f4051c",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "COUNTRY_MT",
+              "GUID": "883be6ad-23a6-465e-b64e-df4ab88de9f8"
+            },
+            "ColumnName": "COUNTRY_MT"
+          },
+          {
+            "GUID": "b7238b99-1f8e-4355-bce2-96d9c66e5acc",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "POST_CODE_MT",
+              "GUID": "9d265887-c294-4189-92e9-7aa1f647a51a"
+            },
+            "ColumnName": "POST_CODE_MT"
+          },
+          {
+            "GUID": "979e21cf-2990-4eb7-a9b1-d0a7b28b0688",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "REGION_MT",
+              "GUID": "37738fc2-dce7-476c-8f39-230f614bc9c4"
+            },
+            "ColumnName": "REGION_MT"
+          },
+          {
+            "GUID": "83e76ac3-9866-4e5c-92d7-4966c5b6c342",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "PREFECTURE_MT",
+              "GUID": "1878dc19-d29e-44b3-92d6-3b1874688a5b"
+            },
+            "ColumnName": "PREFECTURE_MT"
+          },
+          {
+            "GUID": "effdf654-210e-4d30-b675-92c77ffd9e8e",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "ADDRESS_MT",
+              "GUID": "ba3c9b4d-59a4-48a0-ac2d-43aae2494216"
+            },
+            "ColumnName": "ADDRESS_MT"
+          },
+          {
+            "GUID": "48b8d2f4-7f22-41a0-a48c-6f52510f6913",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "PHONE_NBR1_MT",
+              "GUID": "1d2be44f-40bc-4092-9517-4ba5505e1259"
+            },
+            "ColumnName": "PHONE_NBR1_MT"
+          },
+          {
+            "GUID": "33f610b4-3d96-4908-9069-f7eb0e730fe3",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "PHONE_NBR2_MT",
+              "GUID": "631818e9-079a-4df4-acfe-f582f25c0000"
+            },
+            "ColumnName": "PHONE_NBR2_MT"
+          },
+          {
+            "GUID": "d07c5f13-a7d6-4fda-b580-9191590c260f",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "FAX_NBR1_MT",
+              "GUID": "e78151ce-8e0b-4d86-8a3d-49c00bd20db9"
+            },
+            "ColumnName": "FAX_NBR1_MT"
+          },
+          {
+            "GUID": "637c9147-1d70-4afd-9ef5-df3cd48c9265",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "FAX_NBR2_MT",
+              "GUID": "18bc99dd-6466-499d-b506-59390fb6cfeb"
+            },
+            "ColumnName": "FAX_NBR2_MT"
+          },
+          {
+            "GUID": "0593dfc8-f668-42bc-847d-2cee8fc0a802",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TANTOSHA_MAIN_MT",
+              "GUID": "2b2d528e-a0e3-4067-b3f2-e722c82c2346"
+            },
+            "ColumnName": "TANTOSHA_MAIN_MT"
+          },
+          {
+            "GUID": "a8c45825-3db3-4a6b-8f36-3745afb3c86b",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "BUSHO_MAIN_MT",
+              "GUID": "d0ac25ef-1a86-414e-8f96-48bcb9d12441"
+            },
+            "ColumnName": "BUSHO_MAIN_MT"
+          },
+          {
+            "GUID": "c47030fd-58df-421f-b0b0-9ffb76d7c8bc",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "YAKUSHOKU_MAIN_MT",
+              "GUID": "29d5858a-b164-4ffb-91a8-52593b4a0391"
+            },
+            "ColumnName": "YAKUSHOKU_MAIN_MT"
+          },
+          {
+            "GUID": "55c390e1-e2b4-44a5-b662-759f7c95d493",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "MAIL_ADDR_MAIN_MT",
+              "GUID": "125d2284-d884-4048-be18-a0ad6f3fccd0"
+            },
+            "ColumnName": "MAIL_ADDR_MAIN_MT"
+          },
+          {
+            "GUID": "5881e05e-3532-4ff9-ba1c-d5b304c616bc",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "KEITAI_DENWA_MAIN_MT",
+              "GUID": "9f9318b8-8602-4cd7-8807-fdba874201dd"
+            },
+            "ColumnName": "KEITAI_DENWA_MAIN_MT"
+          },
+          {
+            "GUID": "5f38da83-2db5-4437-a162-17f7d0c84cc5",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TANTOSHA_SUB_MT",
+              "GUID": "41f0655d-8e4c-47fd-a8a6-8c213dd17c1e"
+            },
+            "ColumnName": "TANTOSHA_SUB_MT"
+          },
+          {
+            "GUID": "327cad2f-c67d-44db-a56d-3979285d8451",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "BUSHO_SUB_MT",
+              "GUID": "dc23bcea-0bf4-425b-a482-22c95aaf37ca"
+            },
+            "ColumnName": "BUSHO_SUB_MT"
+          },
+          {
+            "GUID": "b44d6b86-c2e7-45c1-9b4e-dc87abebf440",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "YAKUSHOKU_SUB_MT",
+              "GUID": "8206ed5c-bf36-4374-82d9-7d0b61b7e140"
+            },
+            "ColumnName": "YAKUSHOKU_SUB_MT"
+          },
+          {
+            "GUID": "65775ccb-74d8-4cc8-82f9-9056d22ab86c",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "MAIL_ADDR_SUB_MT",
+              "GUID": "06a8142f-e4a1-4a2a-8fbd-ad05beeabfda"
+            },
+            "ColumnName": "MAIL_ADDR_SUB_MT"
+          },
+          {
+            "GUID": "ed15c906-753c-4ee2-ba73-358b5e4d1fa2",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "KEITAI_DENWA_SUB_MT",
+              "GUID": "c6cb4559-b7dd-451a-bdc1-d977167287d4"
+            },
+            "ColumnName": "KEITAI_DENWA_SUB_MT"
+          },
+          {
+            "GUID": "fb11e67b-c3a4-42c4-9c74-3f0767008c73",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "BIKO_MT",
+              "GUID": "26d3803e-a55a-417b-8f1f-05178775121c"
+            },
+            "ColumnName": "BIKO_MT"
+          },
+          {
+            "GUID": "546b6b45-426b-4906-9792-23c70bfea162",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TANTO_EIGYO1_MT",
+              "GUID": "160e0f93-dae2-43c6-9812-34c8151d2504"
+            },
+            "ColumnName": "TANTO_EIGYO1_MT"
+          },
+          {
+            "GUID": "a8acb3fd-542d-4b19-9824-9b35b14f38fa",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "SUB_EIGYO2_MT",
+              "GUID": "43ac9c4e-7b9d-493b-9166-72da29d84939"
+            },
+            "ColumnName": "SUB_EIGYO2_MT"
+          },
+          {
+            "GUID": "33d498f5-cc27-4e75-9f37-827f2ad91e11",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "GENKA_CODE_MT",
+              "GUID": "d6e66e7a-adeb-4189-adf6-32252485820f"
+            },
+            "ColumnName": "GENKA_CODE_MT"
+          },
+          {
+            "GUID": "26c567cc-9624-4a41-9afe-62c2a561ad03",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "JIKAN_CHARGE_MT",
+              "GUID": "d9b26da8-2963-4320-bcbb-1f0390e907f9"
+            },
+            "ColumnName": "JIKAN_CHARGE_MT"
+          },
+          {
+            "GUID": "7cdecabb-d614-4f11-b904-aab844fd5375",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "HASUSHORI_KUBUN_MT",
+              "GUID": "46c1ce43-1d5d-4f91-a583-4b498cc5c095"
+            },
+            "ColumnName": "HASUSHORI_KUBUN_MT"
+          },
+          {
+            "GUID": "d1cf5dfe-734f-49b4-b4b9-57cfc22a3f71",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "KAZEI_KUBUN_MT",
+              "GUID": "5fce9bcb-47db-4899-bd86-eaa2d4f0550a"
+            },
+            "ColumnName": "KAZEI_KUBUN_MT"
+          },
+          {
+            "GUID": "a88234b7-d104-4e8c-b45d-b5af24168a33",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TAX_HASUSHORI_KUBUN_MT",
+              "GUID": "db365a6a-a68a-4c23-82dd-ca7dbc3c3ee7"
+            },
+            "ColumnName": "TAX_HASUSHORI_KUBUN_MT"
+          },
+          {
+            "GUID": "1def6c00-c01f-447f-9fdf-327b46b60784",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "SHOHIZEI_KEISAN_TANI_MT",
+              "GUID": "c2888bc7-bd18-41a2-8420-022c2d614efc"
+            },
+            "ColumnName": "SHOHIZEI_KEISAN_TANI_MT"
+          },
+          {
+            "GUID": "57fa6e3d-361c-41e7-9528-d5cab5c821ca",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "WEB_HATCHU_KUBUN_MT",
+              "GUID": "d333e195-6018-4880-a5b7-9108c6ee2d78"
+            },
+            "ColumnName": "WEB_HATCHU_KUBUN_MT"
+          },
+          {
+            "GUID": "be7f4737-4a4b-4c38-a0bd-f4eff288f9c6",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "NOHINSHO_HAKKO_KUBUN_MT",
+              "GUID": "cb3bcb14-bcfd-4172-badb-5f1094997f08"
+            },
+            "ColumnName": "NOHINSHO_HAKKO_KUBUN_MT"
+          },
+          {
+            "GUID": "c88a5168-826b-4b62-890d-0965f8f93a8d",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "KOBAI_KUBUN_MT",
+              "GUID": "dda789a1-325c-4997-94bd-6184f5f7b402"
+            },
+            "ColumnName": "KOBAI_KUBUN_MT"
+          },
+          {
+            "GUID": "2f8e0321-1779-48fa-a25f-96fca6b2506d",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "EDI_KUBUN_MT",
+              "GUID": "78c36914-7651-4c5c-8adf-f07a5bac6509"
+            },
+            "ColumnName": "EDI_KUBUN_MT"
+          },
+          {
+            "GUID": "d06fd814-1d05-4e92-be38-1d0f501e30a4",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "EDI_HOSHIKI_MT",
+              "GUID": "cbb739ae-9d5b-4d04-8d55-f6a3d87969de"
+            },
+            "ColumnName": "EDI_HOSHIKI_MT"
+          },
+          {
+            "GUID": "2d3f3078-2553-4c58-915d-522e9870e4a3",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "HOJIN_MYNBR_MT",
+              "GUID": "5845817a-d37d-4581-980a-b510a7eb216f"
+            },
+            "ColumnName": "HOJIN_MYNBR_MT"
+          },
+          {
+            "GUID": "22265c96-afad-44a1-b319-de83880c3508",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TOROKU_BANGO_MT",
+              "GUID": "e2a29b97-3d6b-4d0e-86a6-bf0221193380"
+            },
+            "ColumnName": "TOROKU_BANGO_MT"
+          },
+          {
+            "GUID": "0d3a93b0-ae30-4a7f-be8c-b35b58b520cb",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TEKIKAKU_SEIKYU_KUBUN_MT",
+              "GUID": "2cd04e1b-2b85-472d-bb33-21125d2016a9"
+            },
+            "ColumnName": "TEKIKAKU_SEIKYU_KUBUN_MT"
+          },
+          {
+            "GUID": "9a0dc8c4-881b-4a85-8021-6f2990868876",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TOROKU_NENGETUBI_MT",
+              "GUID": "f99c4758-b5be-4f0d-9a87-43fa0321a323"
+            },
+            "ColumnName": "TOROKU_NENGETUBI_MT"
+          },
+          {
+            "GUID": "b3f5f75b-dc19-4b78-b4b6-17dfce5825d3",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "MUKO_NENGETUBI_MT",
+              "GUID": "ed3dc03b-9095-4ff0-abf5-64f500ca536b"
+            },
+            "ColumnName": "MUKO_NENGETUBI_MT"
+          },
+          {
+            "GUID": "57abb210-d69b-4f4c-bb0e-ecd5898c52e5",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "JIGYOSHA_MESHO_MT",
+              "GUID": "a001dc46-697c-49b0-9f25-d53be211afa0"
+            },
+            "ColumnName": "JIGYOSHA_MESHO_MT"
+          },
+          {
+            "GUID": "dee04de6-8b11-4724-88c4-9d011a94806c",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TAB_ORDER_MT",
+              "GUID": "cc9285cb-670f-46fb-908e-8ed9e638977f"
+            },
+            "ColumnName": "TAB_ORDER_MT"
+          },
+          {
+            "GUID": "fa6395d5-7359-4d7f-888f-0a5d6b992f07",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "DELETE_FLG_MT",
+              "GUID": "f43c938b-7dbc-4b6f-8e3f-ea08005a7715"
+            },
+            "ColumnName": "DELETE_FLG_MT"
+          },
+          {
+            "GUID": "a05da22d-c1cb-4c12-acee-caa38fb626d1",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TOROKU_TIMESTAMP_MT",
+              "GUID": "eaa59060-6d11-4f41-b717-36af5c8267e9"
+            },
+            "ColumnName": "TOROKU_TIMESTAMP_MT"
+          },
+          {
+            "GUID": "a8417b50-162d-4579-96ee-0e82ed920cb7",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "TOROKUSHA_CODE_MT",
+              "GUID": "01883411-347e-4499-b35b-98de57777da6"
+            },
+            "ColumnName": "TOROKUSHA_CODE_MT"
+          },
+          {
+            "GUID": "1b13b185-3ea9-4c1d-a65c-c3d1dcc0af10",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "KOSHIN_TIMESTAMP_MT",
+              "GUID": "cf944983-0e30-447b-afd8-5ab43b539bf7"
+            },
+            "ColumnName": "KOSHIN_TIMESTAMP_MT"
+          },
+          {
+            "GUID": "3fba080a-4222-405e-9ebf-7cf8c77a1fac",
+            "BindingInfo": {
+              "TableName": "ymia_v_thatchu",
+              "ColumnName": "KOSHINSHA_CODE_MT",
+              "GUID": "0c24768b-3018-4576-a412-e11ec45de573"
+            },
+            "ColumnName": "KOSHINSHA_CODE_MT"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "ymia_v_thatchu",
+            "ColumnName": "HATCHU_NBR",
+            "GUID": "21dcbdc7-203b-48aa-b69a-300c27e8ee33"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=発注番号"
+          }
+        }
+      },
+      "ReportDataSourceParams": [
+        {
+          "Name": "発注番号"
+        }
+      ],
+      "ColumnsType": [
+        "integer",
+        "date-time",
+        "integer",
+        "string",
+        "string",
+        "string",
+        "integer",
+        "date-time",
+        "date-time",
+        "boolean",
+        "string",
+        "integer",
+        "string",
+        "string",
+        "string",
+        "date-time",
+        "string",
+        "date-time",
+        "string",
+        "integer",
+        "string",
+        "integer",
+        "string",
+        "integer",
+        "string",
+        "integer",
+        "string",
+        "integer",
+        "string",
+        "string",
+        "boolean",
+        "boolean",
+        "boolean",
+        "string",
+        "boolean",
+        "integer",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "boolean",
+        "boolean",
+        "integer",
+        "integer",
+        "date-time",
+        "string",
+        "string",
+        "string",
+        "date-time",
+        "date-time",
+        "string",
+        "integer",
+        "boolean",
+        "date-time",
+        "string",
+        "date-time",
+        "string"
+      ]
+    },
+    {
+      "Name": "発注明細",
+      "GUID": "4c49e99c-c9b0-4d0f-94c6-67448d3e73f9",
+      "DataSourceSetting": {
+        "TableName": "thatchum",
+        "BindingInfos": [
+          {
+            "GUID": "17006d93-8f74-46b3-aff9-b4b4950ecf98",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "DENPYO_NBR",
+              "GUID": "2079b3aa-4fc2-4e5c-837d-e63d8458b078"
+            },
+            "ColumnName": "DENPYO_NBR"
+          },
+          {
+            "GUID": "d46cb799-b38b-4e73-bd28-1edb2ee5cd1a",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "HATCHU_NBR",
+              "GUID": "27e4c9c4-a794-4f39-ab7e-c0e8041e4e51"
+            },
+            "ColumnName": "HATCHU_NBR"
+          },
+          {
+            "GUID": "cbd72b05-0c96-4ba8-ad68-aa2c4fcd3d4c",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "EDABAN",
+              "GUID": "81be14b6-7ba6-4a55-99c7-851c992343cc"
+            },
+            "ColumnName": "EDABAN"
+          },
+          {
+            "GUID": "146ac491-006f-4101-8ba6-c28e109e9ad4",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "BUHIN_KOSEI_ID",
+              "GUID": "175d0d42-ac17-45b7-ab2e-4b2c126e606b"
+            },
+            "ColumnName": "BUHIN_KOSEI_ID"
+          },
+          {
+            "GUID": "cb3e15dc-448a-406b-aeef-b3b197e26abd",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "SEIBAN",
+              "GUID": "7c0291de-eb1d-46f9-96d2-5b27133531fd"
+            },
+            "ColumnName": "SEIBAN"
+          },
+          {
+            "GUID": "c3f5358c-5b7e-4887-9726-3d08bb90fd88",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KO_KOBAN",
+              "GUID": "f7f19a0a-d623-48a6-82ef-4c2a535639b0"
+            },
+            "ColumnName": "KO_KOBAN"
+          },
+          {
+            "GUID": "2d61d0a7-5255-4427-a8b3-977a3dfaa18a",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "HINBAN",
+              "GUID": "c5b63ef2-5860-48f9-befc-6a8ed0c703e8"
+            },
+            "ColumnName": "HINBAN"
+          },
+          {
+            "GUID": "5aa817af-a43c-4b61-a7c0-fdebb2d3636b",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "ZUBAN",
+              "GUID": "589bb44d-cdbf-4881-917a-4e45f51c0018"
+            },
+            "ColumnName": "ZUBAN"
+          },
+          {
+            "GUID": "68cf0bd6-5852-4e4f-a60e-9f29af95a401",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "NINSHIKI_NBR",
+              "GUID": "4a7761ad-42e6-447b-ba28-5e0759276285"
+            },
+            "ColumnName": "NINSHIKI_NBR"
+          },
+          {
+            "GUID": "9b7b67a2-2c9d-4723-aaac-7256166d3838",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KOTEI_CODE",
+              "GUID": "d73e2956-b75c-4583-a3a5-b0574d6c6c20"
+            },
+            "ColumnName": "KOTEI_CODE"
+          },
+          {
+            "GUID": "de70790e-e46d-4634-ba72-80bf368cbe6f",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KOTEI_SEQ_NBR",
+              "GUID": "a03e5762-e2ea-40d0-9b47-0401181efff6"
+            },
+            "ColumnName": "KOTEI_SEQ_NBR"
+          },
+          {
+            "GUID": "5c256ff3-2cae-4c77-b3b0-d9ad21fc531c",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KOTEI_JUN",
+              "GUID": "17ed080a-c993-4828-8a7d-005bf7915d11"
+            },
+            "ColumnName": "KOTEI_JUN"
+          },
+          {
+            "GUID": "8bdf8fc3-7eb9-4576-8a1c-76c7a9cb449c",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "HINMEI",
+              "GUID": "f75e94f1-de39-4dcb-b0d3-e02f1cda7a66"
+            },
+            "ColumnName": "HINMEI"
+          },
+          {
+            "GUID": "0070862f-f86d-4c4a-972e-263d75b4d755",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KEISHIKI",
+              "GUID": "06933268-3870-4c15-b936-4b3c89c904d8"
+            },
+            "ColumnName": "KEISHIKI"
+          },
+          {
+            "GUID": "d33c4be6-33ef-4004-83f1-4544923e1002",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "MAKER",
+              "GUID": "08ce5a6e-c238-4b60-971b-60ac79573291"
+            },
+            "ColumnName": "MAKER"
+          },
+          {
+            "GUID": "4e60b010-2b89-41ba-be5e-e572cf2e66a1",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KOBAI_TANTO",
+              "GUID": "1c83e276-6e01-4be3-a9e5-2698dcde9745"
+            },
+            "ColumnName": "KOBAI_TANTO"
+          },
+          {
+            "GUID": "f7d4c9b5-5d0a-40d8-8bf3-89ecea000c26",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "UKEWATASHI_BASHO",
+              "GUID": "6494e6ca-85aa-4355-93e5-dd80fab1c98d"
+            },
+            "ColumnName": "UKEWATASHI_BASHO"
+          },
+          {
+            "GUID": "5a77979d-65a0-4682-88d6-cc3b8746424f",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "SHOYORYO",
+              "GUID": "124abf3f-bfa8-459a-a55e-41ece10d1c07"
+            },
+            "ColumnName": "SHOYORYO"
+          },
+          {
+            "GUID": "8e23bdba-12b3-45eb-8d1a-6248f1293cea",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "SURYO",
+              "GUID": "2801a216-5f26-4742-b8b8-792b196e0403"
+            },
+            "ColumnName": "SURYO"
+          },
+          {
+            "GUID": "c8291169-8233-44d4-a239-531b32f73a34",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "TANKA",
+              "GUID": "a46fcccc-c38b-4ff7-8d44-81dd2ad8da2d"
+            },
+            "ColumnName": "TANKA"
+          },
+          {
+            "GUID": "781dd2b5-6ec1-45c8-9a67-27c358a90385",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KAITO_TANKA",
+              "GUID": "dd998b14-bd27-45bd-ba3f-c450f29cdb3f"
+            },
+            "ColumnName": "KAITO_TANKA"
+          },
+          {
+            "GUID": "a429afd3-4367-4161-a008-bef1b15f8a67",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "TSUKA_CODE",
+              "GUID": "019ff738-5aa5-4252-9e30-116d7b8d180e"
+            },
+            "ColumnName": "TSUKA_CODE"
+          },
+          {
+            "GUID": "ff4411f0-b4bb-4bb2-bace-1b1278a0f5c8",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KAWASE_RATE",
+              "GUID": "1590acde-5b9a-42d7-a8c3-1d39c7d3d9f9"
+            },
+            "ColumnName": "KAWASE_RATE"
+          },
+          {
+            "GUID": "53aa6d29-d4b4-41d7-a0b4-fb1b6162d787",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KINGAKU",
+              "GUID": "2f5f3542-ed5e-44fc-8017-3c30e559a3e1"
+            },
+            "ColumnName": "KINGAKU"
+          },
+          {
+            "GUID": "1b7ffe2c-c96d-418b-8626-3e29e31aa5b4",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KINGAKU_YEN",
+              "GUID": "9e2ba6a7-8863-43de-9b3b-1a13cba26238"
+            },
+            "ColumnName": "KINGAKU_YEN"
+          },
+          {
+            "GUID": "19307525-f9de-4c42-bcf0-d8a04b9cf313",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KARI_KANRYO_FLAG",
+              "GUID": "fdd3aff3-af66-445c-ad84-f97bcb227bb9"
+            },
+            "ColumnName": "KARI_KANRYO_FLAG"
+          },
+          {
+            "GUID": "7fe8fe85-84b6-4b7d-a4e5-82fac2e54e3c",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KANRYO_FLAG",
+              "GUID": "4222934d-7db0-439f-815c-484d50b36c47"
+            },
+            "ColumnName": "KANRYO_FLAG"
+          },
+          {
+            "GUID": "71678d7d-e3e3-42fd-88c3-05070a3905ee",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "MOTO_HATCHU_NBR",
+              "GUID": "e210187c-e65c-4dc1-a7e6-b552af4e26b4"
+            },
+            "ColumnName": "MOTO_HATCHU_NBR"
+          },
+          {
+            "GUID": "85b5c8c3-cd79-4c8a-ac62-5d6203d0ffc4",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "MATOMESAKI_NBR",
+              "GUID": "c8ebd209-447e-456a-93b3-956020252efb"
+            },
+            "ColumnName": "MATOMESAKI_NBR"
+          },
+          {
+            "GUID": "3081347c-a4e4-48e5-bfd7-eca3cff41d3a",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "SHINSEI_NBR",
+              "GUID": "fbdc2de7-abe3-4a51-ad8b-f5054dbc2640"
+            },
+            "ColumnName": "SHINSEI_NBR"
+          },
+          {
+            "GUID": "b617f8f7-ba44-4b77-9b0c-b20c45a194b3",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "SHINSEI_DATE",
+              "GUID": "09029a03-0199-4222-b669-862b4696aedf"
+            },
+            "ColumnName": "SHINSEI_DATE"
+          },
+          {
+            "GUID": "5571ddbd-2f8f-41a8-bf71-392c78a601d8",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "UPLOAD_STATUS",
+              "GUID": "96e24476-abd0-4624-835a-a6d60868565f"
+            },
+            "ColumnName": "UPLOAD_STATUS"
+          },
+          {
+            "GUID": "eef9764d-31fe-4c8f-9c7c-02fa87fdc7cc",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "DELETE_FLG",
+              "GUID": "7a271c9e-bae9-45b1-bee7-bd647ddde4ab"
+            },
+            "ColumnName": "DELETE_FLG"
+          },
+          {
+            "GUID": "a37c5b4e-df8c-48f1-afe6-c11b918e40e6",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "SHOHIN_FLG",
+              "GUID": "3403b41a-10e8-4992-8149-d9ab7866520f"
+            },
+            "ColumnName": "SHOHIN_FLG"
+          },
+          {
+            "GUID": "acb1e33f-f730-4c45-a3f1-f98c8a101c56",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KOBAI_KUBUN",
+              "GUID": "55ebe509-270b-45be-8703-eb987f8b4b48"
+            },
+            "ColumnName": "KOBAI_KUBUN"
+          },
+          {
+            "GUID": "c818519f-3fba-438b-a115-798c14a3ef17",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KAKUTEI_CHUMON_RENKEI_FLAG",
+              "GUID": "5b782e95-ecf5-4ca7-8867-f575786b2ffc"
+            },
+            "ColumnName": "KAKUTEI_CHUMON_RENKEI_FLAG"
+          },
+          {
+            "GUID": "6d1b3b4f-98e1-4240-8e3b-3cee847a7d0b",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "TOROKU_TIMESTAMP",
+              "GUID": "110e4f7d-1006-4fce-9f7c-ce749425afff"
+            },
+            "ColumnName": "TOROKU_TIMESTAMP"
+          },
+          {
+            "GUID": "736549f3-aeb1-4a14-b195-efedc6ef57fb",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "TOROKUSHA_CODE",
+              "GUID": "b8c996fe-f80c-485f-8e6f-86961ebf6a59"
+            },
+            "ColumnName": "TOROKUSHA_CODE"
+          },
+          {
+            "GUID": "7c794d25-1c27-40e8-a0a9-403a142dda29",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KOSHIN_TIMESTAMP",
+              "GUID": "b0452d2b-97a9-4fca-a0de-d8476d9b943d"
+            },
+            "ColumnName": "KOSHIN_TIMESTAMP"
+          },
+          {
+            "GUID": "b34b92c7-cb89-47eb-bca4-d7bbb54940d1",
+            "BindingInfo": {
+              "TableName": "thatchum",
+              "ColumnName": "KOSHINSHA_CODE",
+              "GUID": "b87453cd-946b-41ac-b3cf-5520a26d7015"
+            },
+            "ColumnName": "KOSHINSHA_CODE"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "thatchum",
+            "ColumnName": "HATCHU_NBR",
+            "GUID": "06142418-9a09-4dd1-a91b-08f8adc17300"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=発注番号"
+          }
+        }
+      },
+      "ReportDataSourceParams": [
+        {
+          "Name": "発注番号"
+        }
+      ],
+      "ColumnsType": [
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "integer",
+        "integer",
+        "string",
+        "string",
+        "string",
+        "integer",
+        "string",
+        "number",
+        "number",
+        "number",
+        "number",
+        "integer",
+        "number",
+        "number",
+        "number",
+        "boolean",
+        "boolean",
+        "integer",
+        "integer",
+        "integer",
+        "date-time",
+        "integer",
+        "boolean",
+        "boolean",
+        "integer",
+        "boolean",
+        "date-time",
+        "string",
+        "date-time",
+        "string"
+      ]
+    }
+  ],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "activeReportPermissionType": 1,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "activeReportPermissionType": 2,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  }
+}
