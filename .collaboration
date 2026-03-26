@@ -17,7 +17,16 @@
   },
   {
     "ModuleName": "Table/tjuchu",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T14:44:43.674422+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\材料売上伝票\\tjuchu.json"
+    ]
   },
   {
     "ModuleName": "Table/t_shukka_yotei",
@@ -29,7 +38,16 @@
   },
   {
     "ModuleName": "Table/thatchum",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T14:44:43.6744841+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\thatchum.json"
+    ]
   },
   {
     "ModuleName": "Table/mtorihiki",
@@ -37,7 +55,16 @@
   },
   {
     "ModuleName": "TableView/ymia_v_thatchu",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T14:44:43.6744891+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\ymia_v_thatchu.json"
+    ]
   },
   {
     "ModuleName": "Table/thatchu",
