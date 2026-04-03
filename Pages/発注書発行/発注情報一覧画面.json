@@ -3,7 +3,7 @@
     "Count": 45
   },
   "Cols": {
-    "Count": 60
+    "Count": 61
   },
   "Values": {
     "2,1": "発注番号",
@@ -104,7 +104,7 @@
         "RowIndex": 5,
         "ColumnIndex": 1,
         "RowCount": 28,
-        "ColumnCount": 58,
+        "ColumnCount": 59,
         "OrderByCondition": {
           "OrderByColumns": [
             {
@@ -119,9 +119,25 @@
         },
         "TopCondition": null,
         "ListViewStyleName": "_RS_Medium2",
+        "CurrentRowChangedCommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=発注情報一覧画面!B4"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=発注情報一覧画面!B7"
+                }
+              }
+            ]
+          }
+        ],
         "ShowColumnHeaderInDesigner": true,
         "ShowEditStatusIcon": true,
-        "UseSimpleBar": true,
         "ColumnOperation": 2
       }
     },
@@ -218,6 +234,43 @@
           }
         ],
         "Text": "帳票",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "6,58": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+            "SessionGuid": "f210f382-7512-4c94-9c4f-48d3ab05d91f",
+            "OpenReportName": "発注書",
+            "SideBarPosition": 0,
+            "PassParameters": [
+              {
+                "TargetParameter": "発注日",
+                "SourceValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=発注情報一覧画面!G7"
+                }
+              },
+              {
+                "TargetParameter": "取引先コード",
+                "SourceValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=発注情報一覧画面!M7"
+                }
+              },
+              {
+                "TargetParameter": "発注No",
+                "SourceValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=発注情報一覧画面!B7"
+                }
+              }
+            ]
+          }
+        ],
         "TemplateKey": "_RS_Normal_Style2"
       }
     }
@@ -385,7 +438,7 @@
     }
   },
   "Spans": [
-    "7,1,26,58",
+    "7,1,26,59",
     "2,12,1,6",
     "3,12,1,6",
     "2,18,1,15",
@@ -402,6 +455,7 @@
     "6,33,1,3",
     "3,1,1,6",
     "2,1,1,6",
+    "6,58,1,2",
     "5,1,1,5",
     "5,6,1,6",
     "5,12,1,6",
@@ -409,7 +463,8 @@
     "5,33,1,3",
     "5,36,1,9",
     "5,45,1,11",
-    "5,56,1,2"
+    "5,56,1,2",
+    "5,58,1,2"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -434,4 +489,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//PNbKp8jJBPEwDQgNFLrhgt/66OIlA0j35aeTB1xoaOHEnOiPOW/QvMfwCVK9SJyb7Pe1y/cDsoYvfqM+cve0zer5zcjG02KqWYYx7i2/QnFuP5kjZMJBLPQmVSIffFTIENgjdCXmh+DyoAnYq4llPKDPduU29O06ZAWVx1nKwEQIHL8A9ve0D0P+WubUs/XpkjI7Gt5BbNzk5e4a+72YwO7BQSz9QK2CaotXKTFE1qbtLR/PK6YxEFF7RhMwndYHZPJZMHGmG+YGBMk46Cy+rrXCn/D/R3D3t25wzQaAbptLt7C01z36XrdcPw9lyVb+v/HN6hg9b9re7hfhlpfA5tUlQ+W3JHJiXqghy9pqB2yVH/9mJW8rfMpZl/862lvXaijg/Cg9KbAI+2qx3cZPycU+venS1DOlib4/th3idvSRodE4aI6OKewE664SjBIyTIf+tBySXP9WC9vhBRuU+UmLUN+oIrLg2udyOKb+rjGSdJMum7tBF/yI7Sv9K7OV2QiNqzPUGaoQb5tDWftGfLHFVYMbGlTE6+ZNbkw+5FfrefXn70xewqz5eKaf+pE3bfHZgehX+Kujl2uUeoFvnnq8Q9ET/F5FvbqX7C0QCDvtlNPgKs0W2Q9f6zrCgr5QaxNuiigNkvEWEnlevVZJXUbBraDe+DFM/TN6ZsUbr6WBrsMjajExYR6KALCnCXp9nYXoLDCDDItOeURHelWooEIWF9vX2byD5OnhBmioIh7eJeHZVix7DYf1B4lyZpxNlevoq9U5E1sRNQZXcxfCL2EPOp2Su1FSTtVHvW5h3k5JUu0hafupM2JViQy+/N7BF32i0uFfP0nVvw2VdhMAVHWPKaUhhk4gOvxQuhPK2XK+dtP5EOuKZUZzKfp+76Z35ihgcRr2gzhTh4werKjZ+w==|920
+}//9FnA3ya//5+ODzzcQeBRExcKfVru+xuA9Up8CPQ0rQ5vTtM/LPi+MR/p2i2h6dkMkTJ5TZffIoYBsCorPDTSnqxeHwXu0x322p0H/Vm413GN9afsfqiM0iVTOu9tuDlR3AlJDj3/CKDo4kr+diQmoOK7FMeImErLdgHADCPja9u4mWWjUoN0rWTcno3CiLj0ARbbAhCnQLlW7VZyZaV6OLuB45UiVgkigoyHKRzF2oTxO2wJlPRbA3nizzr8cJEXYKtoPqdbUI7ZySQ6b+9/cQSCSswLyWt9b/aDQ38Q24KitxZjhmiV0nujKDzkmsDkNe3S9g+f91mz0I/LP58TmxAiisxrtTN/qzj0n8DZvHkABVTueS1GK0rdDiYEowDCxi3r31hXarIAlsPe2cD81xv9V0bvOw94kzk6gqTDt8Xl7xaUe0UGujgsj49q+ZTW04n6BiQ11QAbKNuC/xMHfFgsv2zIIt8ZdDhcVI0G4NwYIw3N4ZztbYsp/5dDuxweFwdATjVtYzlvB8FaG5Iz9n+O9+oSc70/q/25tgGjGcKkAlV1PhW2VgvhqVXNlFmGgraBxCF2DY1Kyycjjd4CmHOSYUKlscVgCnSEERgbQHBRgc2Z7Z3HqM3ZaTIRfJ1qbtPGnDCDK01F8IWwquhD900skqct+BRM8TfuiDVRDygq9aUSoChSM0ipKddDDwM34UUmBjZ68m/7y2XH3Fkxwi6slNouudEkkvyBk6vzluwSCcqCUVEA2+8uIFjOirvJjmkmw13HpWf1j67yXsFLMjE5pV9kd12n07+zfvkcgLO0/On79rNUrV2hMI1W0ejjotkWNEpqGzNb7mi8SvdqT8r4wXh+fiGwPZAWVqANcQPITggs8kOnZfgHxK9PzIC558oYQu4u171yq4Qq8bQOnA==|920

@@ -209,7 +209,7 @@
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "='発注書画面 (2)'!AC1"
+            "SerializeProperty": "='発注書画面(単価未決定分)'!AC1"
           }
         },
         "TopCondition": null,
@@ -1562,7 +1562,7 @@
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "='発注書画面 (2)'!AC1"
+            "SerializeProperty": "='発注書画面(単価未決定分)'!AC1"
           }
         },
         "ID": "61c76a177b434967a4ed2764f8977440"
@@ -1577,7 +1577,7 @@
                 "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                 "cellLocations": [
                   {
-                    "SerializeProperty": "='発注書画面 (2)'!AM1"
+                    "SerializeProperty": "='発注書画面(単価未決定分)'!AM1"
                   }
                 ]
               },
@@ -1590,14 +1590,14 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "='発注書画面 (2)'!S12"
+                      "SerializeProperty": "='発注書画面(単価未決定分)'!S12"
                     },
                     "Value": "S"
                   }
                 ]
               }
             ],
-            "ID": "5f6e0bf4-a387-4dc6-a266-3a8294e617b4"
+            "ID": "e4bb169f-40c5-4833-ba9f-9bbbac7f9bac"
           },
           {
             "Condition": {
@@ -1606,7 +1606,7 @@
                 "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                 "cellLocations": [
                   {
-                    "SerializeProperty": "='発注書画面 (2)'!AM1"
+                    "SerializeProperty": "='発注書画面(単価未決定分)'!AM1"
                   }
                 ]
               },
@@ -1619,14 +1619,14 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "='発注書画面 (2)'!S12"
+                      "SerializeProperty": "='発注書画面(単価未決定分)'!S12"
                     },
                     "Value": "R"
                   }
                 ]
               }
             ],
-            "ID": "c490582b-d3cc-4baf-b159-583e66a8309b"
+            "ID": "dc2218aa-8b6d-4abd-87cb-5fe2856debf5"
           }
         ]
       }
@@ -1664,4 +1664,4 @@
     },
     "PageOrder": 1
   }
-}//CeNlJcj6dwXs2amDetIO8Ud73CvxqnvSkrD39gBk/WgCfmY5F8GzLClMfoAMbuPwwaT1xR9UDyPq695f2GX6+dWIOJswiO5mWr4Son5xCVssXd2o8JFffFAOx1q2d27Q7/5FhEL/NWD5WQiA1A0sbGnWfls5X/dc+Nx0ukkTaCARlblIOSuUBQ6IQWqCMfGUuOMRtUnB+lF4bZ9o/M1RVboP/DSv2h6oWpqw0OcBXmfMOE6LLOeQO1niiqvtAudxIhLxZzp6jQLj1ojADDMldpdwUH6BjcXATRCpEQ+vAOPfxxtlBMKjAq/JUjqTwJBkm8lAYiXVsKphn/XJ34oBPiSD7Us0Hm/weEhQjLR2s0F8iJ0npM/HvYy4cb/C5sb3Zm+YgKz/pbqW0Jt9iZuXrRPJ/EIqikSDM46r7DDhgtqX4b8Eo8v7hnIVROrtSQjaYRPVyHCNV8MPj+90t9h/hg/IJubm9G9oQxIR+ISGtZ3SMxiJa/hCXP3cf1QVfVv2qaJkywsnG7yjYiJWC8T1WjhahH7H/NNBBRohGV8lLhuvEkRR3Mz3ct/+ewaU6Px5n6WM6tbI00jigowQPXqnllOmST2YCp7K2Dg//BQBrbRsaHDU201tQ0Nj5XCAoPExBXz7fWqVFcTZhdeHuY1h7d0EOtJCnXx+sFRpSWW/f78MYc8pPfku4i2mGBBcUamoXAZYds9fQMu2BQzZ1sMIKRuwSRg1r0jGav0N14bQOkKUQ5eipzpf6Bn9qr6Z5AL3SB96Bua6GIemxMR0oTIuHiccH1Vn5a9UkD1LBTfhEWzV4GTIE2OBwDGgq14u6rgB2Zrh3PW+4ff4wh+/L3jqoiNOs9zi2hNFkM7ZqcLTKppqwNCpOmdHp2aoPEsVHxB3CXqZRG9pqYOxFNDpFyzA3w==|920
+}//+fJOBgoa0YXIZSn+qtzjK9czUoUi77Unj3iBNecuHr/dGqcYPit3vfGxTeQqZb68A/uF4YsOWpslky2KenlgmAQL0TQZQ3DfNwovdkv/xz9gnOVRhZJoE+hwvaYYGDwADNQIwitWeD+KXtIx+ufhn0CZqibf57nCKkbs8A7uLPJCtX+zYuGaZEuNYUx5GsavpWS9mpnejlshOB838ASyu9kjoUwQ3SvP/IFx+DBBkNzDqiGrMjP7sbAl7A871gMFSUH4ey1aoYY4+Qat0bQMqM8fSvTwScFgh3P/JQGIt4LR13DDA3I0O+4sfbqysC2dtmFib2KC/wNoyi6zzwzZzci4AW4v64gcBWejo/D26DMsgwqc832FsGWaPaNOsTvrF4HaCzGPIjP3lguThYjSHSziZv7QovjRMNIWGCZuX9XpkqvfdFMJhHjICy92bieZWNsCY5rzaFQtuSzwQjePnYkhG8+V3t6bOyP5Ji0QZTTIwLUhmPwbIeNxmloDRr+k3gkoXaeoHY4Pd2Ib+H6hi5MiNvspUGjfC25kVrCWUtt2hVkMzWt9zF0FK68c0tHfn8ObpRVWhPyS2t6smdifd43AVTn1nC9eU0jP8Diu6CIPHChZudCEA9lpR8y23TfXwToiuSF9tn6goFrL1pkkVue89AN0qzSx58QxmU9QEoYNimnuWvrqBwTTKXh48zgTaiYwYrkd2JXqTbayruvG3ytGJaKy50g6eVFz2eeMkgpGTSnjxx4cDvXILF35K4TvMczzW2HjgTsQEdGkI6C5FZ+HncPA6xyMZz2N9AgPg0C+wP5/adUOxQ4jNjEyK9eIjd35KaxcZuY8s9L4fryc8lHjG2I01B+FIbBsCDo1vhi8FZmA6aaalfYjgV/R0iBC1GKHVx7xSTQ3q5tZNWNdgw==|920

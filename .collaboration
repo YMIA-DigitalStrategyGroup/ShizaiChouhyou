@@ -17,16 +17,7 @@
   },
   {
     "ModuleName": "Table/tjuchu",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-26T14:44:43.674422+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\材料売上伝票\\tjuchu.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/t_shukka_yotei",
@@ -38,16 +29,7 @@
   },
   {
     "ModuleName": "Table/thatchum",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-26T14:44:43.6744841+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\thatchum.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/mtorihiki",
@@ -55,16 +37,7 @@
   },
   {
     "ModuleName": "TableView/ymia_v_thatchu",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-26T14:44:43.6744891+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\ymia_v_thatchu.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Table/thatchu",
@@ -180,49 +153,15 @@
   },
   {
     "ModuleName": "PCPage/発注情報一覧画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-23T11:09:57.7804703+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\発注書発行\\発注情報一覧画面.json",
-      "Pages\\発注書発行\\発注情報一覧画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/発注情報一覧画面 (2)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-03T09:57:32.2659559+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\発注書発行\\発注情報一覧画面 (2).json",
-      "Pages\\発注書発行\\発注情報一覧画面 (2).rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/発注書画面",
     "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/発注書画面 (2)",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-10T17:07:58.1585134+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\発注書発行\\発注書画面 (2).json",
-      "Pages\\発注書発行\\発注書画面 (2).rd"
-    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_ユーザーマスターページ",
@@ -230,17 +169,7 @@
   },
   {
     "ModuleName": "PageReport/発注書",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-26T14:44:59.3648771+09:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\発注書.json",
-      "Reports\\発注書.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "PageReport/発注書 (2)",
@@ -252,17 +181,7 @@
   },
   {
     "ModuleName": "PageReport/レポート1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-03T09:35:24.6461564+09:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\材料売上伝票\\レポート1.json",
-      "Reports\\材料売上伝票\\レポート1.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "ApplicationSetting",
@@ -310,16 +229,7 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-23T09:55:20.4810239+09:00",
-    "ModuleType": 25,
-    "ToRemoveFiles": [
-      "DataConnectionSet.json"
-    ]
+    "ModuleType": 25
   },
   {
     "ModuleName": "Upload",
@@ -339,12 +249,6 @@
   },
   {
     "ModuleName": "PCPage/発注書画面(単価未決定分)",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-10T17:08:29.4929698+09:00",
     "ModuleType": 1
   }
 ]

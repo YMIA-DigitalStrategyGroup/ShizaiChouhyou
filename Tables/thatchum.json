@@ -301,7 +301,7 @@
       "DefaultValue": 0,
       "DatabaseColumnType": "int",
       "MaxLength": -1,
-      "Name": "edaban",
+      "Name": "EDABAN",
       "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     }
   ],
