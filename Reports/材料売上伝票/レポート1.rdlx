@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
-	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report11111111111111</dd:Name>
+	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report111111111111111111</dd:Name>
 	<Body>
 		<Height>29.7cm</Height>
 		<ReportItems>
@@ -26,6 +26,7 @@
 	<StyleId>c728fbbc-6ae5-47bd-8e20-d710772a5858</StyleId>
 	<StyleName>Light Style 1 Accent 1</StyleName>
 </ReportStyle></Custom>
+								<DataSetName>データソース1_DataSet</DataSetName>
 								<DetailDataElementOutput>Auto</DetailDataElementOutput>
 								<Header>
 									<RepeatOnNewPage>true</RepeatOnNewPage>
@@ -474,8 +475,8 @@
 																</BorderStyle>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<DataElementName>TEHAI_KOBAN</DataElementName>
-															<Value>=Fields!TEHAI_KOBAN.Value</Value>
+															<DataElementName>製番</DataElementName>
+															<Value>=Fields!製番.Value</Value>
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -498,8 +499,8 @@
 																</BorderStyle>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<DataElementName>TANABAN</DataElementName>
-															<Value>=Fields!HINBAN.Value</Value>
+															<DataElementName>品番_部品コード_</DataElementName>
+															<Value>=Fields.Item("品番_部品コード_").Value</Value>
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -522,8 +523,8 @@
 																</BorderStyle>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<DataElementName>KEISHIKI</DataElementName>
-															<Value>=Fields!HINMEI.Value</Value>
+															<DataElementName>部品名称</DataElementName>
+															<Value>=Fields.Item("部品名称").Value</Value>
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -546,7 +547,8 @@
 																</BorderStyle>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<Value>=Fields!URIAGE_SU.Value</Value>
+															<DataElementName>数量</DataElementName>
+															<Value>=Fields.Item("数量").Value</Value>
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -569,7 +571,8 @@
 																</BorderStyle>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<Value>=Fields!TANI_CODE.Value</Value>
+															<DataElementName>単位名称</DataElementName>
+															<Value>=Fields.Item("単位名称").Value</Value>
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -593,7 +596,8 @@
 																</BorderStyle>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<Value>=Fields!HANBAI_TANKA.Value</Value>
+															<DataElementName>販売単価</DataElementName>
+															<Value>=Fields.Item("販売単価").Value</Value>
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -646,7 +650,8 @@
 																</BorderStyle>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<Value>=Fields!TANABAN.Value</Value>
+															<DataElementName>ロケーション_棚番_</DataElementName>
+															<Value>=Fields.Item("ロケーション_棚番_").Value</Value>
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -670,7 +675,8 @@
 																</BorderStyle>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<Value>=Fields!KEISHIKI.Value</Value>
+															<DataElementName>規格_寸法</DataElementName>
+															<Value>=Fields.Item("規格_寸法").Value</Value>
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -743,7 +749,8 @@
 																</BorderStyle>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<Value />
+															<DataElementName>販売金額</DataElementName>
+															<Value>=Fields.Item("販売金額").Value</Value>
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -1050,7 +1057,7 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Fields!NONYUSAKI_MESHO.Value</Value>
+								<Value>=Fields.Item("納入先_送り先_名称").Value</Value>
 							</Textbox>
 							<Textbox Name="TextBox21">
 								<Top>7.621cm</Top>
@@ -1075,7 +1082,7 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value />
+								<Value>=Fields.Item("売上先_送り先住所").Value</Value>
 							</Textbox>
 							<Textbox Name="TextBox22">
 								<Top>2.5in</Top>
@@ -1125,7 +1132,7 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Fields!DENSHU.Value</Value>
+								<Value />
 							</Textbox>
 							<Textbox Name="TextBox24">
 								<Top>2.5in</Top>
@@ -1176,7 +1183,7 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Fields!IRAI_DATE.Value</Value>
+								<Value>=Fields.Item("受注日").Value</Value>
 							</Textbox>
 							<Textbox Name="TextBox26">
 								<Top>2.5in</Top>
@@ -1228,7 +1235,7 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Fields!KIBO_NOKI.Value</Value>
+								<Value>=Fields.Item("出荷予定日").Value</Value>
 							</Textbox>
 							<Textbox Name="TextBox28">
 								<Top>2.5in</Top>
@@ -1278,7 +1285,7 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Fields!CHUMONSHO_NBR.Value</Value>
+								<Value>=Fields.Item("注文番号").Value</Value>
 							</Textbox>
 							<Textbox Name="TextBox30">
 								<Top>1.75in</Top>
@@ -1374,6 +1381,7 @@
 						<BottomMargin>1cm</BottomMargin>
 					</Page>
 				</Pages>
+				<DataSetName>データソース1_DataSet</DataSetName>
 			</FixedPage>
 		</ReportItems>
 	</Body>
@@ -1387,7 +1395,7 @@
 	<DataSources>
 		<DataSource Name="データソース1">
 			<ConnectionProperties>
-				<ConnectString>jsondoc=http://localhost:12957/Forguncy/ARDataSource/GetDataSource/8cce372f-a71e-40fb-8165-590e35a41e09;schemadata={"type":"array","items":{"type":"object","properties":{"SHAIN_CODE":{"type":"string"},"JUCHU_NBR":{"type":"integer"},"RIREKI_SEQ_NBR":{"type":"integer"},"BUNRUI_KUBUN":{"type":"integer"},"SEIBAN":{"type":"string"},"KIKAI_KOBAN":{"type":"string"},"MEISAI_NBR":{"type":"integer"},"KOJI_KUBUN":{"type":"integer"},"HINBAN":{"type":"string"},"HINMEI":{"type":"string"},"BIKO":{"type":"string"},"KEISHIKI":{"type":"string"},"SURYO":{"type":"number"},"TANI_CODE":{"type":"integer"},"YOTEI_GENKA_TANKA":{"type":"integer"},"YOTEI_GENKA_KINGAKU":{"type":"integer"},"GENKA_TANKA":{"type":"integer"},"GENKA_KINGAKU":{"type":"integer"},"HANBAI_TANKA":{"type":"number"},"HANBAI_KINGAKU":{"type":"number"},"TSUKA_CODE":{"type":"integer"},"SHUKKA_TAISHO_FLAG":{"type":"boolean"},"SAKUZU_CHECK_FLAG":{"type":"boolean"},"SAKUZU_BIKO":{"type":"string"},"KANRYO_FLAG":{"type":"boolean"},"KOJO_SHUKKA_DATE":{"type":"date-time"},"TOROKU_TIMESTAMP":{"type":"date-time"},"TOROKUSHA_CODE":{"type":"string"},"KOSHIN_TIMESTAMP":{"type":"date-time"},"KOSHINSHA_CODE":{"type":"string"},"TEHAI_KOBAN":{"type":"string"},"IRAI_DATE":{"type":"date-time"},"KIBO_NOKI":{"type":"date-time"},"CHUMONSHO_NBR":{"type":"string"},"URIAGE_SU":{"type":"number"},"NONYUSAKI_MESHO":{"type":"string"},"DENSHU":{"type":"string"},"TANABAN":{"type":"string"}}}}</ConnectString>
+				<ConnectString>jsondoc=http://localhost:12957/Forguncy/ARDataSource/GetDataSource/8cce372f-a71e-40fb-8165-590e35a41e09;schemadata={"type":"array","items":{"type":"object","properties":{"受注No_工事__":{"type":"integer"},"注文番号":{"type":"string"},"売上先コード":{"type":"string"},"納入先_送り先_名称":{"type":"string"},"受注日":{"type":"date-time"},"出荷予定日":{"type":"date-time"},"品番_部品コード_":{"type":"string"},"数量":{"type":"number"},"販売単価":{"type":"number"},"販売金額":{"type":"number"},"製番":{"type":"string"},"売上先_送り先住所":{"type":"string"},"郵便番号":{"type":"string"},"部品名称":{"type":"string"},"規格_寸法":{"type":"string"},"ロケーション_棚番_":{"type":"string"},"単位名称":{"type":"string"}}}}</ConnectString>
 				<DataProvider>JSON</DataProvider>
 			</ConnectionProperties>
 		</DataSource>
@@ -1395,119 +1403,56 @@
 	<DataSets>
 		<DataSet Name="データソース1_DataSet">
 			<Fields>
-				<Field Name="SHAIN_CODE">
-					<DataField>SHAIN_CODE</DataField>
+				<Field Name="受注No_工事__">
+					<DataField>受注No_工事__</DataField>
 				</Field>
-				<Field Name="JUCHU_NBR">
-					<DataField>JUCHU_NBR</DataField>
+				<Field Name="注文番号">
+					<DataField>注文番号</DataField>
 				</Field>
-				<Field Name="RIREKI_SEQ_NBR">
-					<DataField>RIREKI_SEQ_NBR</DataField>
+				<Field Name="売上先コード">
+					<DataField>売上先コード</DataField>
 				</Field>
-				<Field Name="BUNRUI_KUBUN">
-					<DataField>BUNRUI_KUBUN</DataField>
+				<Field Name="納入先_送り先_名称">
+					<DataField>納入先_送り先_名称</DataField>
 				</Field>
-				<Field Name="SEIBAN">
-					<DataField>SEIBAN</DataField>
+				<Field Name="受注日">
+					<DataField>受注日</DataField>
 				</Field>
-				<Field Name="KIKAI_KOBAN">
-					<DataField>KIKAI_KOBAN</DataField>
+				<Field Name="出荷予定日">
+					<DataField>出荷予定日</DataField>
 				</Field>
-				<Field Name="MEISAI_NBR">
-					<DataField>MEISAI_NBR</DataField>
+				<Field Name="品番_部品コード_">
+					<DataField>品番_部品コード_</DataField>
 				</Field>
-				<Field Name="KOJI_KUBUN">
-					<DataField>KOJI_KUBUN</DataField>
+				<Field Name="数量">
+					<DataField>数量</DataField>
 				</Field>
-				<Field Name="HINBAN">
-					<DataField>HINBAN</DataField>
+				<Field Name="販売単価">
+					<DataField>販売単価</DataField>
 				</Field>
-				<Field Name="HINMEI">
-					<DataField>HINMEI</DataField>
+				<Field Name="販売金額">
+					<DataField>販売金額</DataField>
 				</Field>
-				<Field Name="BIKO">
-					<DataField>BIKO</DataField>
+				<Field Name="製番">
+					<DataField>製番</DataField>
 				</Field>
-				<Field Name="KEISHIKI">
-					<DataField>KEISHIKI</DataField>
+				<Field Name="売上先_送り先住所">
+					<DataField>売上先_送り先住所</DataField>
 				</Field>
-				<Field Name="SURYO">
-					<DataField>SURYO</DataField>
+				<Field Name="郵便番号">
+					<DataField>郵便番号</DataField>
 				</Field>
-				<Field Name="TANI_CODE">
-					<DataField>TANI_CODE</DataField>
+				<Field Name="部品名称">
+					<DataField>部品名称</DataField>
 				</Field>
-				<Field Name="YOTEI_GENKA_TANKA">
-					<DataField>YOTEI_GENKA_TANKA</DataField>
+				<Field Name="規格_寸法">
+					<DataField>規格_寸法</DataField>
 				</Field>
-				<Field Name="YOTEI_GENKA_KINGAKU">
-					<DataField>YOTEI_GENKA_KINGAKU</DataField>
+				<Field Name="ロケーション_棚番_">
+					<DataField>ロケーション_棚番_</DataField>
 				</Field>
-				<Field Name="GENKA_TANKA">
-					<DataField>GENKA_TANKA</DataField>
-				</Field>
-				<Field Name="GENKA_KINGAKU">
-					<DataField>GENKA_KINGAKU</DataField>
-				</Field>
-				<Field Name="HANBAI_TANKA">
-					<DataField>HANBAI_TANKA</DataField>
-				</Field>
-				<Field Name="HANBAI_KINGAKU">
-					<DataField>HANBAI_KINGAKU</DataField>
-				</Field>
-				<Field Name="TSUKA_CODE">
-					<DataField>TSUKA_CODE</DataField>
-				</Field>
-				<Field Name="SHUKKA_TAISHO_FLAG">
-					<DataField>SHUKKA_TAISHO_FLAG</DataField>
-				</Field>
-				<Field Name="SAKUZU_CHECK_FLAG">
-					<DataField>SAKUZU_CHECK_FLAG</DataField>
-				</Field>
-				<Field Name="SAKUZU_BIKO">
-					<DataField>SAKUZU_BIKO</DataField>
-				</Field>
-				<Field Name="KANRYO_FLAG">
-					<DataField>KANRYO_FLAG</DataField>
-				</Field>
-				<Field Name="KOJO_SHUKKA_DATE">
-					<DataField>KOJO_SHUKKA_DATE</DataField>
-				</Field>
-				<Field Name="TOROKU_TIMESTAMP">
-					<DataField>TOROKU_TIMESTAMP</DataField>
-				</Field>
-				<Field Name="TOROKUSHA_CODE">
-					<DataField>TOROKUSHA_CODE</DataField>
-				</Field>
-				<Field Name="KOSHIN_TIMESTAMP">
-					<DataField>KOSHIN_TIMESTAMP</DataField>
-				</Field>
-				<Field Name="KOSHINSHA_CODE">
-					<DataField>KOSHINSHA_CODE</DataField>
-				</Field>
-				<Field Name="TEHAI_KOBAN">
-					<DataField>TEHAI_KOBAN</DataField>
-				</Field>
-				<Field Name="IRAI_DATE">
-					<DataField>IRAI_DATE</DataField>
-				</Field>
-				<Field Name="KIBO_NOKI">
-					<DataField>KIBO_NOKI</DataField>
-				</Field>
-				<Field Name="CHUMONSHO_NBR">
-					<DataField>CHUMONSHO_NBR</DataField>
-				</Field>
-				<Field Name="URIAGE_SU">
-					<DataField>URIAGE_SU</DataField>
-				</Field>
-				<Field Name="NONYUSAKI_MESHO">
-					<DataField>NONYUSAKI_MESHO</DataField>
-				</Field>
-				<Field Name="DENSHU">
-					<DataField>DENSHU</DataField>
-				</Field>
-				<Field Name="TANABAN">
-					<DataField>TANABAN</DataField>
+				<Field Name="単位名称">
+					<DataField>単位名称</DataField>
 				</Field>
 			</Fields>
 			<Query>

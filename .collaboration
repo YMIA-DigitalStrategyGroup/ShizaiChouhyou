@@ -24,19 +24,6 @@
     "ModuleType": 7
   },
   {
-    "ModuleName": "TableView/ymia_v_tjuchum",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-07T16:46:09.0957984+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\材料売上伝票\\ymia_v_tjuchum.json"
-    ]
-  },
-  {
     "ModuleName": "Table/thatchum",
     "ModuleType": 7
   },
@@ -190,17 +177,7 @@
   },
   {
     "ModuleName": "PageReport/レポート1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-07T16:46:09.0958938+09:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\材料売上伝票\\レポート1.json",
-      "Reports\\材料売上伝票\\レポート1.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "ApplicationSetting",
