@@ -268,13 +268,13 @@
     "ModuleType": 23
   },
   {
-    "ModuleName": "Pages/発注書発行/材料売上伝票",
+    "ModuleName": "Pages/材料売上伝票",
     "State": 3,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-04-07T17:13:40.2105662+09:00",
+    "LockDateTime": "2026-04-07T17:13:48.1300947+09:00",
     "ModuleType": 6
   }
 ]
