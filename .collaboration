@@ -153,12 +153,12 @@
   },
   {
     "ModuleName": "PCPage/発注情報一覧画面 (2)",
-    "State": 4,
+    "State": 2,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-04-07T17:13:53.8427951+09:00",
+    "LockDateTime": "2026-04-07T17:14:20.1552417+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\発注書発行\\発注情報一覧画面 (2).json",
@@ -286,5 +286,15 @@
     },
     "LockDateTime": "2026-04-07T17:13:48.1300947+09:00",
     "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/材料売上伝票一覧ん",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-07T17:14:20.155269+09:00",
+    "ModuleType": 1
   }
 ]
