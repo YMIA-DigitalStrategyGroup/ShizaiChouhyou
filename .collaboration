@@ -288,13 +288,13 @@
     "ModuleType": 6
   },
   {
-    "ModuleName": "PCPage/材料売上伝票一覧ん",
+    "ModuleName": "PCPage/材料売上伝票一覧",
     "State": 3,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-04-07T17:14:20.155269+09:00",
+    "LockDateTime": "2026-04-07T17:14:29.0757403+09:00",
     "ModuleType": 1
   }
 ]
