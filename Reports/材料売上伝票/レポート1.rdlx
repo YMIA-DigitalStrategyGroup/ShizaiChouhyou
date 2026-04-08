@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
-	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report111111111111111111</dd:Name>
+	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report11111111111111111111</dd:Name>
 	<Body>
 		<Height>29.7cm</Height>
 		<ReportItems>
@@ -475,8 +475,8 @@
 																</BorderStyle>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<DataElementName>製番</DataElementName>
-															<Value>=Fields!製番.Value</Value>
+															<DataElementName>明細製番</DataElementName>
+															<Value>=Fields.Item("明細製番").Value</Value>
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -1382,6 +1382,11 @@
 					</Page>
 				</Pages>
 				<DataSetName>データソース1_DataSet</DataSetName>
+				<Grouping Name="FixedPage_グループ1">
+					<GroupExpressions>
+						<GroupExpression>=Fields!明細製番.Value</GroupExpression>
+					</GroupExpressions>
+				</Grouping>
 			</FixedPage>
 		</ReportItems>
 	</Body>
@@ -1395,7 +1400,7 @@
 	<DataSources>
 		<DataSource Name="データソース1">
 			<ConnectionProperties>
-				<ConnectString>jsondoc=http://localhost:12957/Forguncy/ARDataSource/GetDataSource/8cce372f-a71e-40fb-8165-590e35a41e09;schemadata={"type":"array","items":{"type":"object","properties":{"受注No_工事__":{"type":"integer"},"注文番号":{"type":"string"},"売上先コード":{"type":"string"},"納入先_送り先_名称":{"type":"string"},"受注日":{"type":"date-time"},"出荷予定日":{"type":"date-time"},"品番_部品コード_":{"type":"string"},"数量":{"type":"number"},"販売単価":{"type":"number"},"販売金額":{"type":"number"},"製番":{"type":"string"},"売上先_送り先住所":{"type":"string"},"郵便番号":{"type":"string"},"部品名称":{"type":"string"},"規格_寸法":{"type":"string"},"ロケーション_棚番_":{"type":"string"},"単位名称":{"type":"string"}}}}</ConnectString>
+				<ConnectString>jsondoc=http://localhost:12957/Forguncy/ARDataSource/GetDataSource/a5680ea3-dea3-47a9-ad33-1902865772b8;schemadata={"type":"array","items":{"type":"object","properties":{"受注No_工事__":{"type":"integer"},"注文番号":{"type":"string"},"売上先コード":{"type":"string"},"納入先_送り先_名称":{"type":"string"},"受注日":{"type":"date-time"},"出荷予定日":{"type":"date-time"},"ヘッダー製番_機械工番_":{"type":"string"},"手配工番":{"type":"string"},"品番_部品コード_":{"type":"string"},"数量":{"type":"number"},"販売単価":{"type":"number"},"販売金額":{"type":"number"},"明細製番":{"type":"string"},"売上先_送り先住所":{"type":"string"},"郵便番号":{"type":"string"},"部品名称":{"type":"string"},"規格_寸法":{"type":"string"},"ロケーション_棚番_":{"type":"string"},"単位名称":{"type":"string"}}}}</ConnectString>
 				<DataProvider>JSON</DataProvider>
 			</ConnectionProperties>
 		</DataSource>
@@ -1421,6 +1426,12 @@
 				<Field Name="出荷予定日">
 					<DataField>出荷予定日</DataField>
 				</Field>
+				<Field Name="ヘッダー製番_機械工番_">
+					<DataField>ヘッダー製番_機械工番_</DataField>
+				</Field>
+				<Field Name="手配工番">
+					<DataField>手配工番</DataField>
+				</Field>
 				<Field Name="品番_部品コード_">
 					<DataField>品番_部品コード_</DataField>
 				</Field>
@@ -1433,8 +1444,8 @@
 				<Field Name="販売金額">
 					<DataField>販売金額</DataField>
 				</Field>
-				<Field Name="製番">
-					<DataField>製番</DataField>
+				<Field Name="明細製番">
+					<DataField>明細製番</DataField>
 				</Field>
 				<Field Name="売上先_送り先住所">
 					<DataField>売上先_送り先住所</DataField>

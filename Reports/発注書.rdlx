@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
-	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report111111111111111111111</dd:Name>
+	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report1111111111111111111111111111</dd:Name>
 	<Body>
 		<Height>29.7cm</Height>
 		<ReportItems>
@@ -113,10 +113,10 @@
 								<Value>様</Value>
 							</Textbox>
 							<Textbox Name="TextBox97">
-								<Top>6.218cm</Top>
-								<Left>6.139cm</Left>
-								<Width>6.893cm</Width>
-								<Height>0.75cm</Height>
+								<Top>2.25in</Top>
+								<Left>2.5in</Left>
+								<Width>2.7138in</Width>
+								<Height>0.2953in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -167,7 +167,7 @@
 							<Table Name="Table4">
 								<Top>4in</Top>
 								<Left>0cm</Left>
-								<Width>18.953cm</Width>
+								<Width>19cm</Width>
 								<Height>2.54cm</Height>
 								<Style>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -686,7 +686,6 @@
 									</TableRows>
 								</Footer>
 								<dd:FixedHeight xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">14.605cm</dd:FixedHeight>
-								<dd:FixedWidth xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">19cm</dd:FixedWidth>
 								<TableColumns>
 									<TableColumn>
 										<Width>4.059cm</Width>
@@ -695,13 +694,13 @@
 										<Width>4.056cm</Width>
 									</TableColumn>
 									<TableColumn>
-										<Width>4.734cm</Width>
+										<Width>1.411cm</Width>
 									</TableColumn>
 									<TableColumn>
 										<Width>1.352cm</Width>
 									</TableColumn>
 									<TableColumn>
-										<Width>0.074cm</Width>
+										<Width>3.444cm</Width>
 									</TableColumn>
 									<TableColumn>
 										<Width>4.678cm</Width>
@@ -780,7 +779,33 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value />
+								<Value>=IF(Fields!TANKA_HM.Value &gt; 0, "仮単価発注", "")</Value>
+							</Textbox>
+							<Textbox Name="TextBox9">
+								<Top>3in</Top>
+								<Width>4in</Width>
+								<Height>0.75in</Height>
+								<Style>
+									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+									<Color>=Theme.Colors!Dark1</Color>
+									<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+									<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+									<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+									<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<ZIndex>15</ZIndex>
+								<CanGrow>true</CanGrow>
+								<Custom><ReportStyle>
+	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
+	<StyleName>Dark 1 Major</StyleName>
+</ReportStyle></Custom>
+								<Value>毎度、お世話になっております。
+本日、下記の注文書を発行したいましましたので、確認を御願いします。
+不明な点がありましたら、当部までお問合せください。</Value>
 							</Textbox>
 						</ReportItems>
 						<PaperOrientation>Portrait</PaperOrientation>

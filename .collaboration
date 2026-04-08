@@ -152,20 +152,6 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "PCPage/発注情報一覧画面 (2)",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-07T17:14:20.1552417+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\発注書発行\\発注情報一覧画面 (2).json",
-      "Pages\\発注書発行\\発注情報一覧画面 (2).rd"
-    ]
-  },
-  {
     "ModuleName": "PCPage/発注書画面",
     "ModuleType": 1
   },
@@ -175,17 +161,7 @@
   },
   {
     "ModuleName": "PageReport/発注書",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-08T10:03:14.3652174+09:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\発注書.json",
-      "Reports\\発注書.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "PageReport/発注書 (2)",
@@ -197,17 +173,7 @@
   },
   {
     "ModuleName": "PageReport/レポート1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-07T16:58:55.7297134+09:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\材料売上伝票\\レポート1.json",
-      "Reports\\材料売上伝票\\レポート1.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "ApplicationSetting",
@@ -279,32 +245,14 @@
   },
   {
     "ModuleName": "TableView/ymia_v_tjuchum",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-07T16:59:19.894712+09:00",
     "ModuleType": 23
   },
   {
     "ModuleName": "Pages/材料売上伝票",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-07T17:13:48.1300947+09:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "PCPage/材料売上伝票一覧",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-07T17:14:29.0757403+09:00",
     "ModuleType": 1
   }
 ]
