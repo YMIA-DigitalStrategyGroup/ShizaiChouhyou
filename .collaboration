@@ -175,7 +175,17 @@
   },
   {
     "ModuleName": "PageReport/発注書",
-    "ModuleType": 17
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-08T10:03:14.3652174+09:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\発注書.json",
+      "Reports\\発注書.rdlx"
+    ]
   },
   {
     "ModuleName": "PageReport/発注書 (2)",
