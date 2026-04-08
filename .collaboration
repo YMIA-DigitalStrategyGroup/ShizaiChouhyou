@@ -284,15 +284,5 @@
     },
     "LockDateTime": "2026-04-08T16:48:17.9492009+09:00",
     "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/ymia_v_tjuchum_一覧ページ",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-08T16:48:17.9492461+09:00",
-    "ModuleType": 1
   }
 ]
