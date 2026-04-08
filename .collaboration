@@ -153,7 +153,17 @@
   },
   {
     "ModuleName": "PCPage/発注書画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-08T10:24:29.6107484+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\発注書発行\\発注書画面.json",
+      "Pages\\発注書発行\\発注書画面.rd"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_ユーザーマスターページ",
