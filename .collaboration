@@ -255,7 +255,16 @@
   },
   {
     "ModuleName": "TableView/ymia_v_tjuchum",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-09T14:09:45.0360879+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\材料売上伝票\\ymia_v_tjuchum.json"
+    ]
   },
   {
     "ModuleName": "Pages/材料売上伝票",
