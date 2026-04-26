@@ -255,16 +255,7 @@
   },
   {
     "ModuleName": "TableView/ymia_v_tjuchum",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-09T14:09:45.0360879+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\材料売上伝票\\ymia_v_tjuchum.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Pages/材料売上伝票",
@@ -272,46 +263,18 @@
   },
   {
     "ModuleName": "PCPage/材料売上伝票一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-09T14:32:15.4821049+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\材料売上伝票\\材料売上伝票一覧.json",
-      "Pages\\材料売上伝票\\材料売上伝票一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "TableView/ymia_v_pban_shikumi",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-09T14:00:40.579523+09:00",
     "ModuleType": 23
   },
   {
     "ModuleName": "PageReport/P番伝票(仕組)",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-09T14:31:48.9084087+09:00",
     "ModuleType": 17
   },
   {
     "ModuleName": "PageReport/P番伝票(単品)",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-09T14:32:15.4750089+09:00",
     "ModuleType": 17
   }
 ]

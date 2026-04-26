@@ -1,0 +1,245 @@
+{
+  "Name": "P番伝票(単品)",
+  "DataSources": [
+    {
+      "Name": "P番_単品_",
+      "GUID": "a5680ea3-dea3-47a9-ad33-1902865772b8",
+      "DataSourceSetting": {
+        "TableName": "ymia_v_tjuchum",
+        "BindingInfos": [
+          {
+            "GUID": "000b464e-b330-488f-a9bc-4b4de9a04e03",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "受注No（工事№）",
+              "GUID": "e199fa13-bb57-4fbd-9e34-0986158fbc13"
+            },
+            "ColumnName": "受注No_工事__"
+          },
+          {
+            "GUID": "9edc2c34-de28-419b-a921-15ff4a8e8c36",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "注文番号",
+              "GUID": "0a087063-35ea-4a88-b369-53a540bd718c"
+            },
+            "ColumnName": "注文番号"
+          },
+          {
+            "GUID": "8ec57fc5-4e34-4f66-97be-547999eb5d61",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "売上先コード",
+              "GUID": "f0c16361-f44e-4a61-975d-57cbb1388fec"
+            },
+            "ColumnName": "売上先コード"
+          },
+          {
+            "GUID": "7f5aabe0-217c-4849-861c-f33d42973e3c",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "納入先（送り先）名称",
+              "GUID": "89340d12-bb96-40a9-acc9-9d33edaa9ac4"
+            },
+            "ColumnName": "納入先_送り先_名称"
+          },
+          {
+            "GUID": "d2572e80-eb41-4907-8383-a3d8f6f08edc",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "受注日",
+              "GUID": "72803570-455e-466c-817d-e33339be0a03"
+            },
+            "ColumnName": "受注日"
+          },
+          {
+            "GUID": "980133ce-dab3-41e2-9b1b-672719401cb8",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "出荷予定日",
+              "GUID": "e07ad280-da13-489f-afe4-4b2d164c04e6"
+            },
+            "ColumnName": "出荷予定日"
+          },
+          {
+            "GUID": "0d972c78-3fca-4f6d-bbe2-73c96eb02f43",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "ヘッダー製番（機械工番）",
+              "GUID": "9a5c521d-68d1-4481-9aee-f2058ec90e0b"
+            },
+            "ColumnName": "ヘッダー製番_機械工番_"
+          },
+          {
+            "GUID": "66c2cd46-2aa0-49e5-b962-4d27a9112c6e",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "手配工番",
+              "GUID": "b6957d02-87e3-422b-9d5b-561c2a1bcd81"
+            },
+            "ColumnName": "手配工番"
+          },
+          {
+            "GUID": "015e64c4-6288-422e-94d6-cdb18cd9a1bf",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "品番（部品コード）",
+              "GUID": "bc23e644-9bf4-4d7e-b218-2a96c25dba62"
+            },
+            "ColumnName": "品番_部品コード_"
+          },
+          {
+            "GUID": "9ea07729-c499-4442-b83e-dc093d0a07f4",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "数量",
+              "GUID": "ea9f5775-ff23-4a41-8ad8-0baacb585df9"
+            },
+            "ColumnName": "数量"
+          },
+          {
+            "GUID": "c95440b1-3aed-4648-9beb-ac398ec8e605",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "販売単価",
+              "GUID": "25892555-c339-411c-8034-5a41a92636d1"
+            },
+            "ColumnName": "販売単価"
+          },
+          {
+            "GUID": "d2df9c82-6ae7-4e62-911a-440e87608b5a",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "販売金額",
+              "GUID": "fa797c3e-7134-451c-9db3-fb4d30d4b03d"
+            },
+            "ColumnName": "販売金額"
+          },
+          {
+            "GUID": "31a1c89f-36c3-4e98-b593-93edc36e4968",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "明細製番",
+              "GUID": "72940a1f-994c-4aa4-81eb-899a072232e7"
+            },
+            "ColumnName": "明細製番"
+          },
+          {
+            "GUID": "aeefb2fd-8c26-477d-8afc-e40b30a26726",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "売上先・送り先住所",
+              "GUID": "42f91a89-d9f5-4a6a-947d-befff3a55ead"
+            },
+            "ColumnName": "売上先_送り先住所"
+          },
+          {
+            "GUID": "4315787d-e691-43d7-b790-681e67e14e03",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "郵便番号",
+              "GUID": "bd8930d0-9750-484e-b973-5a0abce918c6"
+            },
+            "ColumnName": "郵便番号"
+          },
+          {
+            "GUID": "899d557c-a062-4548-b3d3-6fdf81938231",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "部品名称",
+              "GUID": "f0783673-4724-4372-8ffb-c15f894d0b48"
+            },
+            "ColumnName": "部品名称"
+          },
+          {
+            "GUID": "496f358a-98dd-4d28-9d77-0ba2f20eea97",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "規格・寸法",
+              "GUID": "5ef228e1-8375-4004-8711-3b8d573ca4fe"
+            },
+            "ColumnName": "規格_寸法"
+          },
+          {
+            "GUID": "9fe3b09a-7c0c-4c2a-83f5-9c7611a26901",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "ロケーション（棚番）",
+              "GUID": "d79c102d-f5d5-4e08-b1b9-4408b9d73b13"
+            },
+            "ColumnName": "ロケーション_棚番_"
+          },
+          {
+            "GUID": "d8841521-9c6c-49da-bc16-2869ec07d366",
+            "BindingInfo": {
+              "TableName": "ymia_v_tjuchum",
+              "ColumnName": "単位名称",
+              "GUID": "6a129908-a473-4d05-bfad-497b1fcb5794"
+            },
+            "ColumnName": "単位名称"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "ymia_v_tjuchum",
+            "ColumnName": "明細製番",
+            "GUID": "12bc42e7-6883-462c-b9ac-16d96388fd9d"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=製番"
+          }
+        }
+      },
+      "ReportDataSourceParams": [
+        {
+          "Name": "製番"
+        }
+      ],
+      "ColumnsType": [
+        "integer",
+        "string",
+        "string",
+        "string",
+        "date-time",
+        "date-time",
+        "string",
+        "string",
+        "string",
+        "number",
+        "number",
+        "number",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "activeReportPermissionType": 1,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "activeReportPermissionType": 2,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  }
+}

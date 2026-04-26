@@ -1,20 +1,13 @@
 {
-  "Name": "ymia_v_tjuchum",
+  "Name": "ymia_v_pban_shikumi",
   "Columns": [
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "Required": true,
       "DatabaseColumnType": "int",
       "MaxLength": -1,
-      "Name": "受注No（工事№）",
+      "Name": "受注No",
       "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 30,
-      "Name": "注文番号",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
@@ -25,26 +18,10 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "Required": true,
       "DatabaseColumnType": "varchar",
-      "MaxLength": 50,
-      "Name": "納入先（送り先）名称",
+      "MaxLength": 30,
+      "Name": "注文番号",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "Required": true,
-      "DatabaseColumnType": "date",
-      "MaxLength": -1,
-      "Name": "受注日",
-      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "date",
-      "MaxLength": -1,
-      "Name": "出荷予定日",
-      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
@@ -65,28 +42,21 @@
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 20,
-      "Name": "品番（部品コード）",
+      "Name": "仕組部品コード",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "decimal",
       "MaxLength": -1,
-      "Name": "数量",
+      "Name": "受注数量",
       "ColumnType": "System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "decimal",
       "MaxLength": -1,
-      "Name": "販売単価",
-      "ColumnType": "System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "decimal",
-      "MaxLength": -1,
-      "Name": "販売金額",
+      "Name": "受注単価",
       "ColumnType": "System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -98,23 +68,31 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
       "DatabaseColumnType": "varchar",
-      "MaxLength": 200,
-      "Name": "売上先・送り先住所",
+      "MaxLength": 20,
+      "Name": "子部品コード",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 10,
-      "Name": "郵便番号",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "DatabaseColumnType": "decimal",
+      "MaxLength": -1,
+      "Name": "構成数量",
+      "ColumnType": "System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 50,
-      "Name": "部品名称",
+      "Name": "子部品名称",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 5,
+      "Name": "ロケーション",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -127,8 +105,15 @@
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
-      "MaxLength": 20,
-      "Name": "ロケーション（棚番）",
+      "MaxLength": 50,
+      "Name": "品名",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 50,
+      "Name": "仕様詳細",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -149,11 +134,11 @@
   "ExternalDatabaseInfo": {
     "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
     "ConnectionId": "MySql1",
-    "SourceTableName": "ymia_v_tjuchum",
+    "SourceTableName": "ymia_v_pban_shikumi",
     "SourceTableSchema": "",
-    "CreateViewSql": "select `t_juchu`.`JUCHU_NBR` AS `受注No（工事№）`,`t_juchu`.`CHUMONSHO_NBR` AS `注文番号`,`t_juchu`.`TORIHIKISAKI_CODE` AS `売上先コード`,`t_juchu`.`NONYUSAKI` AS `納入先（送り先）名称`,`t_juchu`.`IRAI_DATE` AS `受注日`,`t_juchu`.`KOJO_SHUKKA_YOTEI_DATE` AS `出荷予定日`,`t_juchu`.`SEIBAN` AS `ヘッダー製番（機械工番）`,`t_juchu`.`TEHAI_KOBAN` AS `手配工番`,`t_juchum`.`HINBAN` AS `品番（部品コード）`,`t_juchum`.`SURYO` AS `数量`,`t_juchum`.`HANBAI_TANKA` AS `販売単価`,`t_juchum`.`HANBAI_KINGAKU` AS `販売金額`,`t_juchum`.`SEIBAN` AS `明細製番`,`m_torihiki`.`ADDRESS` AS `売上先・送り先住所`,`m_torihiki`.`POST_CODE` AS `郵便番号`,`m_hinban`.`HINMEI` AS `部品名称`,`m_hinban`.`KIKAKU` AS `規格・寸法`,`m_hinban`.`TANABAN` AS `ロケーション（棚番）`,`m_hinban`.`KAITEI_SEQ_NBR` AS `最新改訂通番`,`m_name`.`MEISHO` AS `単位名称` from ((((`tjuchu` `t_juchu` join `tjuchum` `t_juchum` on((`t_juchu`.`JUCHU_NBR` = `t_juchum`.`JUCHU_NBR`))) left join `mtorihiki` `m_torihiki` on((`t_juchu`.`TORIHIKISAKI_CODE` = `m_torihiki`.`TORIHIKISAKI_CODE`))) left join `mhinban` `m_hinban` on(((`t_juchum`.`HINBAN` = `m_hinban`.`HINBAN`) and (`m_hinban`.`KAITEI_SEQ_NBR` = (select max(`sub`.`KAITEI_SEQ_NBR`) from `mhinban` `sub` where (`sub`.`HINBAN` = `t_juchum`.`HINBAN`)))))) left join `mname` `m_name` on(((`m_hinban`.`TANI_CODE` = `m_name`.`MEISHO_CODE`) and (`m_name`.`MEISHO_KUBUN` = 48)))) where (`t_juchu`.`TEHAI_KOBAN` like 'P%')",
+    "CreateViewSql": "select `t_juchu`.`JUCHU_NBR` AS `受注No`,`t_juchu`.`TORIHIKISAKI_CODE` AS `売上先コード`,`t_juchu`.`CHUMONSHO_NBR` AS `注文番号`,`t_juchu`.`SEIBAN` AS `ヘッダー製番（機械工番）`,`t_juchu`.`TEHAI_KOBAN` AS `手配工番`,`t_juchum`.`HINBAN` AS `仕組部品コード`,`t_juchum`.`SURYO` AS `受注数量`,`t_juchum`.`HANBAI_TANKA` AS `受注単価`,`t_juchum`.`SEIBAN` AS `明細製番`,`t_buhink`.`HINBAN` AS `子部品コード`,`t_buhink`.`SURYO` AS `構成数量`,`t_buhink`.`KOSEI_NAME` AS `子部品名称`,`t_buhink`.`KURADASHI_KOTEI` AS `ロケーション`,`t_buhink`.`KIKAKU` AS `規格・寸法`,`m_hinban`.`HINMEI` AS `品名`,`m_hinban`.`KEISHIKI` AS `仕様詳細`,`m_hinban`.`KAITEI_SEQ_NBR` AS `最新改訂通番`,`m_name`.`MEISHO` AS `単位名称` from ((((`tjuchu` `t_juchu` join `tjuchum` `t_juchum` on((`t_juchu`.`JUCHU_NBR` = `t_juchum`.`JUCHU_NBR`))) join `tbuhink` `t_buhink` on(((`t_juchu`.`TEHAI_KOBAN` = `t_buhink`.`SEIBAN`) and (`t_juchum`.`SEIBAN` = `t_buhink`.`KOBAN`)))) left join `mhinban` `m_hinban` on(((`t_buhink`.`HINBAN` = `m_hinban`.`HINBAN`) and (`m_hinban`.`KAITEI_SEQ_NBR` = (select max(`sub`.`KAITEI_SEQ_NBR`) from `mhinban` `sub` where (`sub`.`HINBAN` = `t_buhink`.`HINBAN`)))))) left join `mname` `m_name` on(((`m_hinban`.`TANI_CODE` = `m_name`.`MEISHO_CODE`) and (`m_name`.`MEISHO_KUBUN` = 48)))) where (`t_juchu`.`TEHAI_KOBAN` like 'P%')",
     "ViewInfo": {
-      "ViewName": "ymia_v_tjuchum",
+      "ViewName": "ymia_v_pban_shikumi",
       "IsUpdatable": true,
       "QueryColumns": []
     }
