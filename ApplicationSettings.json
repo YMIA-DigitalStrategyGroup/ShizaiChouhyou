@@ -7,7 +7,7 @@
   "GlobalProperties": [],
   "WebSitePort": 12957,
   "UserServicePort": 41059,
-  "StartPage": "発注情報一覧画面 (2)",
+  "StartPage": "材料売上伝票一覧",
   "StartDateFiscalYear": 4,
   "BaseOnStartingMonth": true,
   "MultipleLanguageSettings": {
