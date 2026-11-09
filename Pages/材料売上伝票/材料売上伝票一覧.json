@@ -3,22 +3,24 @@
     "Count": 45
   },
   "Cols": {
-    "Count": 60
+    "Count": 76
   },
   "Values": {
-    "2,1": "発注番号",
+    "2,1": "製番",
     "2,12": "取引先CD",
     "2,18": "取引先名",
     "2,34": "検索",
     "2,40": "クリア",
-    "5,1": "発注番号",
-    "5,6": "発注日",
-    "5,12": "取引先CD",
-    "5,18": "取引先名",
-    "5,33": "EDI区分",
-    "5,36": "備考",
-    "5,45": "メモ",
-    "6,56": "帳票"
+    "5,1": "製番",
+    "5,8": "受注日",
+    "5,14": "取引先CD",
+    "5,20": "取引先名",
+    "5,32": "受注物件名",
+    "5,47": "EDI区分",
+    "5,50": "備考",
+    "5,59": "メモ",
+    "5,70": "受注番号",
+    "6,72": "帳票"
   },
   "AttachInfos": {
     "2,34": {
@@ -104,7 +106,7 @@
         "RowIndex": 5,
         "ColumnIndex": 1,
         "RowCount": 28,
-        "ColumnCount": 58,
+        "ColumnCount": 74,
         "SqlCondition": {
           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
           "CompareType": 2,
@@ -114,6 +116,18 @@
             "GUID": "6783a7e0-7b88-4580-8bdb-35e0abdda4d4"
           },
           "Value": "P"
+        },
+        "OrderByCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "ymia_v_tjuchum",
+                "ColumnName": "手配工番",
+                "GUID": "2496168d-7b61-4f78-a809-e8d9c452aaa0"
+              },
+              "Order": 1
+            }
+          ]
         },
         "TopCondition": null,
         "ListViewStyleName": "_RS_Medium2",
@@ -126,32 +140,39 @@
     "6,1": {
       "BindingInfo": {
         "TableName": "ymia_v_tjuchum",
-        "ColumnName": "受注No（工事№）",
-        "GUID": "eacb6ff3-d9be-4881-a722-5768369f7745"
+        "ColumnName": "手配工番",
+        "GUID": "e2de7f8f-dac2-4c73-8743-c5406d94a4b7"
       }
     },
-    "6,6": {
+    "6,8": {
       "BindingInfo": {
         "TableName": "ymia_v_tjuchum",
-        "ColumnName": "注文番号",
-        "GUID": "deef2f84-2367-4fb6-9ee0-7e1694cc9092"
+        "ColumnName": "受注日",
+        "GUID": "f2603e4b-006e-4ef3-abbf-d839d1af1093"
       }
     },
-    "6,12": {
+    "6,14": {
       "BindingInfo": {
         "TableName": "ymia_v_tjuchum",
         "ColumnName": "売上先コード",
         "GUID": "a245984f-bad9-4e39-89bb-4d343ddb94a3"
       }
     },
-    "6,18": {
+    "6,20": {
       "BindingInfo": {
         "TableName": "ymia_v_tjuchum",
         "ColumnName": "納入先（送り先）名称",
-        "GUID": "f945c872-4fae-4809-87a1-9c1f20218139"
+        "GUID": "297d0141-8584-47b6-b98d-7f58847e3f83"
       }
     },
-    "6,33": {
+    "6,32": {
+      "BindingInfo": {
+        "TableName": "ymia_v_tjuchum",
+        "ColumnName": "受注物件名",
+        "GUID": "493410bd-9709-4659-897e-a00515df6f3f"
+      }
+    },
+    "6,47": {
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "Items": [
@@ -166,20 +187,27 @@
         ]
       }
     },
-    "6,36": {
+    "6,50": {
       "BindingInfo": {
         "TableName": "ymia_v_tjuchum",
         "ColumnName": "出荷予定日",
         "GUID": "e8b27d1e-9caf-43a1-af2a-975c840d5c4f"
       }
     },
-    "6,56": {
+    "6,70": {
+      "BindingInfo": {
+        "TableName": "ymia_v_tjuchum",
+        "ColumnName": "受注No（工事№）",
+        "GUID": "69aaa25a-47c5-4b6a-bbb1-d79591bbf044"
+      }
+    },
+    "6,72": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
             "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
-            "SessionGuid": "30411e17-4cd8-4ede-a71b-d3581c8c12f7",
+            "SessionGuid": "6ae12d2b-5341-4dd3-ab8f-604195f875e6",
             "OpenReportName": "P番伝票(単品)",
             "SideBarPosition": 0,
             "PassParameters": [
@@ -187,7 +215,7 @@
                 "TargetParameter": "製番",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=材料売上伝票一覧!S7"
+                  "SerializeProperty": "=材料売上伝票一覧!B7"
                 }
               }
             ]
@@ -345,23 +373,68 @@
       "3,42": 6,
       "3,43": 6,
       "5,1": 5,
-      "5,6": 5,
-      "5,33": 5,
+      "5,8": 5,
+      "5,9": 6,
+      "5,10": 6,
+      "5,11": 6,
+      "5,12": 6,
+      "5,13": 6,
+      "5,14": 6,
+      "5,15": 6,
+      "5,16": 6,
+      "5,17": 6,
+      "5,18": 6,
+      "5,19": 6,
+      "5,20": 6,
+      "5,32": 6,
+      "5,47": 5,
+      "5,48": 6,
+      "5,49": 6,
+      "5,50": 6,
+      "5,51": 6,
+      "5,52": 6,
+      "5,53": 6,
+      "5,54": 6,
+      "5,55": 6,
+      "5,56": 6,
+      "5,57": 6,
+      "5,58": 6,
       "6,1": 6,
-      "6,6": 11,
+      "6,8": 11,
+      "6,9": 6,
+      "6,10": 6,
+      "6,11": 6,
       "6,12": 6,
+      "6,13": 6,
+      "6,14": 6,
+      "6,15": 6,
+      "6,16": 6,
+      "6,17": 6,
       "6,18": 6,
-      "6,33": 6,
-      "6,36": 6,
-      "6,45": 6,
-      "6,56": 5
+      "6,19": 6,
+      "6,20": 6,
+      "6,32": 6,
+      "6,47": 6,
+      "6,48": 6,
+      "6,49": 6,
+      "6,50": 6,
+      "6,51": 6,
+      "6,52": 6,
+      "6,53": 6,
+      "6,54": 6,
+      "6,55": 6,
+      "6,56": 6,
+      "6,57": 6,
+      "6,58": 6,
+      "6,59": 6,
+      "6,72": 5
     },
     "SheetStyle": {
       "FontFamily": 3
     }
   },
   "Spans": [
-    "7,1,26,58",
+    "7,1,26,74",
     "2,12,1,6",
     "3,12,1,6",
     "2,18,1,15",
@@ -370,25 +443,30 @@
     "2,40,2,4",
     "3,1,1,6",
     "2,1,1,6",
-    "6,33,1,3",
-    "6,45,1,11",
-    "6,56,1,2",
-    "6,6,1,6",
-    "6,36,1,9",
-    "6,1,1,5",
-    "5,1,1,5",
-    "5,6,1,6",
-    "5,33,1,3",
-    "5,36,1,9",
-    "5,45,1,11",
-    "5,56,1,2",
-    "6,18,1,15",
-    "5,18,1,15",
-    "6,12,1,6",
-    "5,12,1,6"
+    "6,59,1,11",
+    "6,72,1,2",
+    "5,59,1,11",
+    "5,72,1,2",
+    "6,14,1,6",
+    "5,14,1,6",
+    "6,8,1,6",
+    "5,8,1,6",
+    "6,47,1,3",
+    "6,50,1,9",
+    "5,47,1,3",
+    "5,50,1,9",
+    "6,1,1,7",
+    "5,1,1,7",
+    "6,70,1,2",
+    "5,70,1,2",
+    "6,20,1,12",
+    "5,20,1,12",
+    "6,32,1,15",
+    "5,32,1,15"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "資材調達メニュー",
     "PermissionData": {
       "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
       "permissionResource": {
@@ -411,4 +489,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//FsIIpPu9Pnb9P86FBaaxL1Z3gwXsYyjlEm4DvhoPha7pIxl8JCZFXAxm/HoiIyz8SfrhDE4kTAVj+8Wo2KKPyloSFDniwE0Rk1kJ6miD0z5Ns3o3HvpcGhYFgqDar31wFBhxHgoilgK8N28F7vjHCm2yig/4uRsrkRCNQx0mLYZG85Nc27astdwKRTWhQL0ocN8m9CW/DG+Q0cB5reiuH0IuphXVTffTNMMeG+DanJAWjbvV+B8wfdSYJSf/3MiIh6ZvB8fq8XWozr4b9LdITyMbp1iwq30vr0zQ8qSimBC5XGqQYfYBXesZsT7yV8Qr2Fil47gBOtWFS3Ap+MQtUCZ+TdPd1+9L/1peOzFmOay4yTUlls0douv1SfQvsmXtiSHniAlDaHKommgbtmRe+ddkOXNSVo25VUuENCMSVRXYLaxVO18FCYwI+wu0+uenoih201VH4WU8wMsMokB8+LK8uSdP4ZGb94FW6mnA35u5WOTMjNVGLgMhyl0tpp7lLO9kkqwJzEfRlsjaFNYR5tx+CWfltyDgnu7AMqmz18q49Jvab5jU5vCahwqNfPh7KOcPad8w8a/mMV3BA6+YMws73UM57TQ9MY4gDqyRmZ8MEqY4zI9/2oNJpXdVzVU75LAqp5idnqtfTwVs3NdfQjtZ7jBnZssX9aJivZx6Oamnqev0GNrqK8aF4F2QjwcDdaWKuBVHv3BHfxy3TvONMIArCrda21QvJ8shTKRW+evddFfwu6i2Vi2mBsrPIbI00AOzzj7/vv14ZKJXewnmvXuujI3t0TKZJ3c/f5RScXBK/KcXwNqCcPLbPzh6+o2bpUsHkSCW+r+ZP5hpNzzFBgZpYVE+DKurMM/eE/S7bDjfw/IrEPULyM5idi6NHnWw+ofIGcS6Fv4TKCOcR3jX4g==|920
+}//C0zIH1YjEiCOsCXOyYe8fj8Zi1u+Vc3SsCSak5JHT9TtPU2xeGcUzrkU38EVh6oCRXe+NH4sw5o3MoiqqHOXUSJsI+2LZPN5h66lA8PrV+ysWbj9g4W5Ij1uVNcTctrFo/1et4De6Nf501S69fyK1ZuFH4cxNYwJq8G110ISeNVrTXanCsTpqxR7BPLSCIcJj60z0NCoKf9CQxIQiY3mW8XMOhHpHhJUEh97+inrm50+2WtQL3bwbPA7HIJGMnY4lyUer9qxUOvBYdRZvEcT5ltvvbaChDa6+Lia7Ig/3YG19jqWvld1NnbJ4xw46gaf7lH5jiu6sccpnTOZndgcGO69AkK0YKjqGF9XXG9OQM5SAzZWn3689iiWo6pY1j4O1uxyguHsG67jvH0bcKsJ7ZuXiBQpRVpdOb5N4C+rtOXSI4FWc2xYIFT9KrJNDkgD8B3ahvbMc1ieMK8ib2p3WmFOUsS73cEvGtIlIZUgQr5Pg3rV2Yx2n4xufWWM5llsv16cexyDtIVRg5YY9cW4H2ajxqcfUS2U10sxePSqGaMBVb6xnVkDITQMi8215VuOuVMhV/te1pkf9zq0/IfWyPEwbOi3tgoLUirhzEiwOTKs4vSXO8wzxGHKOK/YoKxPWoeW43J+dOeVnb0z4IzavkhMRsaucxTp2betUdGsGxPNVcKn8/xMiRZgbqWJ+94fJ2W28vYXyqNfgO6RClk+qVqBjMQwJQzJ6coCIx3jEWK+PlIQtv4YmaJTfeQr9lT6qiT8niTOvp0P+Imx255BMEmzCJ76As5J3Nu3nz5UDlr3Dva8WCVDoAp13AcqLWKsx4iixzCcvVRJi7HzbJO6i7azPJBaG9I95nWzBYBw2ynu5XU5IY+aEamqdekgMFhrJB8WGUWOUijtT0XAtcqMpA==|920

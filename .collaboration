@@ -25,16 +25,7 @@
   },
   {
     "ModuleName": "TableView/ymia_v_tjuchum",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-09T17:36:43.7679395+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\材料売上伝票\\ymia_v_tjuchum.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "TableView/ymia_v_pban_shikumi",
@@ -166,17 +157,7 @@
   },
   {
     "ModuleName": "PCPage/材料売上伝票一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-09T17:28:55.7574835+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\材料売上伝票\\材料売上伝票一覧.json",
-      "Pages\\材料売上伝票\\材料売上伝票一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/発注書発行",
@@ -184,17 +165,7 @@
   },
   {
     "ModuleName": "PCPage/発注情報一覧画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-09T17:28:44.4690539+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\発注書発行\\発注情報一覧画面.json",
-      "Pages\\発注書発行\\発注情報一覧画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/発注書画面",
@@ -222,17 +193,7 @@
   },
   {
     "ModuleName": "PageReport/P番伝票(単品)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-09T17:42:52.3137332+09:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\材料売上伝票\\P番伝票(単品).json",
-      "Reports\\材料売上伝票\\P番伝票(単品).rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "PageReport/P番伝票(仕組)",
@@ -308,17 +269,7 @@
   },
   {
     "ModuleName": "PCPage/P番部品構成情報",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-09T17:29:06.3051341+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\P番号部品構成情報\\P番部品構成情報.json",
-      "Pages\\P番号部品構成情報\\P番部品構成情報.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Table/ymia_t_pban_kaiso",
@@ -330,32 +281,14 @@
   },
   {
     "ModuleName": "MasterPCPage/資材調達メニュー",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-09T17:05:58.7977864+09:00",
     "ModuleType": 3
   },
   {
     "ModuleName": "TableView/ymia_v_pban_chumon",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-09T17:30:13.1501899+09:00",
     "ModuleType": 23
   },
   {
     "ModuleName": "PageReport/P番伝票_統一",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-09T17:50:27.2815471+09:00",
     "ModuleType": 17
   }
 ]

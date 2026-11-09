@@ -1,0 +1,195 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "Count": 46
+  },
+  "Cols": {
+    "Count": 78
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.svg"
+      }
+    },
+    "2,68": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "7,0": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_Dark_ThemeStyle2",
+        "Items": [
+          {
+            "Value": "発注書印刷",
+            "Text": "発注書印刷",
+            "IconPath": "Application/072_print_3.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "発注情報一覧画面"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "P番伝票印刷",
+            "Text": "P番伝票印刷",
+            "IconPath": "Navigation/229_list_5.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "材料売上伝票一覧"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "P番構成確認",
+            "Text": "P番構成確認",
+            "IconPath": "Application/044_search_5.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "P番部品構成情報"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "Orientation": 0,
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 17.3333333333333,
+            "Height": 45.0,
+            "Width": 200.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "FontSize": 16.0,
+            "Height": 32.0,
+            "Width": 200.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "7,69": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "9,0": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,5,10",
+    "9,0,37,78",
+    "2,68,3,10",
+    "7,69,2,9",
+    "7,0,2,69"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Repeat": true,
+      "Name": "515397b3-ef9b-4f31-a45b-aa3c3ce18665",
+      "DisplayName": "背景画像1",
+      "ForguncyPictureName": "PCMasterBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 2,
+      "Size": "200,210"
+    },
+    {
+      "Name": "d7fb6181-e71a-4167-8b3d-6a2865f62b2a",
+      "DisplayName": "背景画像2",
+      "ForguncyPictureName": "PCMasterBanner",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "Size": "1560,100"
+    }
+  ]
+}//mIDbgsApuM7qKSgWwRJRfLdpb4XHESyIuCKJ88MjTt3y1eSnzP20Xsj23lBHi78VWKMEQIIl5tFlcPFFb5KYj1GQA5XzvndyH7ruH1yNBY39jQmkgkUg7oaE6NISlxj5e5RWpgQfOrqsXwTy4WfPQxB60ZcG1oTSlMxHKNfDd/ZTE4Sc2IPxFLXOVP+RM5v3djx4L5ihRRQZUILdyZYpOliVjvrR4BsnFPjDhj1RPJw4c30b1u7Do4MNvGA5w4ANWWh3gtAm+4vEs523Qpc3mf5XUOk2KY24NEBMor1/Wm9FG+yd3CYsPzm/dHP79mQkjEXxSkv0DXNAE/rK008YEGBq0Io5tm9Cw8nm9we2pr4KQwPFPVeLgOoePiLHKidjJDYDHDIsUK+fJzfDWzrBN62VO3tn9yjZuBKxD2V0UTBPqwAnjB1sh4PlagRZTnnD3qKSoCXXQGVnQykE5sN9ve0qZKqRvyxos6Qio36OE3zqQJV+QBtSDDbNQJZRL738eqLK9elO2EdYrHdrFxMODPgxIATvVke91dHelg+n/9vG2K/1qj01Wq3aPoDhkeK6gQR3K9BllyRqWLTibYGkH+lY1wwynoQADIKOwO6g35fLaTXoXxO9uyQ51VqI2av5lZw1acrwpIbXPkZBRkvhCQuEP4+Os/7S8nDqjnUhluqQFzPrmokwm6QfFpZwC1IDXVTdVBjoXlbGGXq5RwDCGjQ/vtgYNfU7pyArNdqTxdcc5ZGt2DoCI6O0/ZlRM2t6IJ6Mp5+ts/bx4rmTVD9saKafb/wiZnRnxPr74E5E3XZ2WwvedLHpddniHyikiGTp0BbxMuSpa8NrVLGvlCQoAtAQVBeGj9/gouK8YSPk36alQ03Fiwp9mHp1/piX9Jxbqm1MplyJGpbwRags9RboEA==|920
