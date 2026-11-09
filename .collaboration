@@ -165,7 +165,17 @@
   },
   {
     "ModuleName": "PCPage/発注情報一覧画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-11-09T17:28:44.4690539+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\発注書発行\\発注情報一覧画面.json",
+      "Pages\\発注書発行\\発注情報一覧画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/発注書画面",
