@@ -157,17 +157,7 @@
   },
   {
     "ModuleName": "PCPage/材料売上伝票一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-10-15T16:35:12.9647857+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\材料売上伝票\\材料売上伝票一覧.json",
-      "Pages\\材料売上伝票\\材料売上伝票一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/発注書発行",
@@ -175,17 +165,7 @@
   },
   {
     "ModuleName": "PCPage/発注情報一覧画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-10-09T14:08:16.7177467+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\発注書発行\\発注情報一覧画面.json",
-      "Pages\\発注書発行\\発注情報一覧画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/発注書画面",
