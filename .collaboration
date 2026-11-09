@@ -289,6 +289,26 @@
   },
   {
     "ModuleName": "PageReport/P番伝票_統一",
+    "State": 2,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-11-10T07:16:24.8231756+09:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\材料売上伝票\\P番伝票_統一.json",
+      "Reports\\材料売上伝票\\P番伝票_統一.rdlx"
+    ]
+  },
+  {
+    "ModuleName": "PageReport/P番伝票(仕組)_修正版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-11-10T07:16:24.8232421+09:00",
     "ModuleType": 17
   }
 ]
