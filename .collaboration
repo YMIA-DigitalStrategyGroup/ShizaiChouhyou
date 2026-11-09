@@ -289,7 +289,17 @@
   },
   {
     "ModuleName": "PCPage/P番部品構成情報",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-11-09T17:29:06.3051341+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\P番号部品構成情報\\P番部品構成情報.json",
+      "Pages\\P番号部品構成情報\\P番部品構成情報.rd"
+    ]
   },
   {
     "ModuleName": "Table/ymia_t_pban_kaiso",
