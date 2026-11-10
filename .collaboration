@@ -25,16 +25,7 @@
   },
   {
     "ModuleName": "TableView/ymia_v_tjuchum",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-10T10:30:36.6026516+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\材料売上伝票\\ymia_v_tjuchum.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "TableView/ymia_v_pban_shikumi",
@@ -166,17 +157,7 @@
   },
   {
     "ModuleName": "PCPage/材料売上伝票一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-10T07:39:11.8936956+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\材料売上伝票\\材料売上伝票一覧.json",
-      "Pages\\材料売上伝票\\材料売上伝票一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/発注書発行",
@@ -212,17 +193,7 @@
   },
   {
     "ModuleName": "PageReport/P番伝票(単品)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-10T07:18:20.6786961+09:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\材料売上伝票\\P番伝票(単品).json",
-      "Reports\\材料売上伝票\\P番伝票(単品).rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "PageReport/P番伝票(仕組)",
@@ -314,39 +285,10 @@
   },
   {
     "ModuleName": "TableView/ymia_v_pban_chumon",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-10T08:44:47.0814761+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\ymia_v_pban_chumon.json"
-    ]
-  },
-  {
-    "ModuleName": "PageReport/P番伝票_統一",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-10T07:16:24.8231756+09:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\材料売上伝票\\P番伝票_統一.json",
-      "Reports\\材料売上伝票\\P番伝票_統一.rdlx"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "PageReport/P番伝票(仕組)_修正版",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-10T07:16:24.8232421+09:00",
     "ModuleType": 17
   }
 ]

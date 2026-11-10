@@ -49,7 +49,35 @@
       "Required": true,
       "DatabaseColumnType": "varchar",
       "MaxLength": 50,
-      "Name": "納入先（送り先）名称",
+      "Name": "納入先コード",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 50,
+      "Name": "納入先名称",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 10,
+      "Name": "納入先郵便番号",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 200,
+      "Name": "納入先住所",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 20,
+      "Name": "納入先電話番号",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -165,7 +193,7 @@
     "ConnectionId": "MySql1",
     "SourceTableName": "ymia_v_tjuchum",
     "SourceTableSchema": "",
-    "CreateViewSql": "select `t_juchu`.`JUCHU_NBR` AS `受注No（工事№）`,`t_juchu`.`CHUMONSHO_NBR` AS `注文番号`,`t_juchu`.`TORIHIKISAKI_CODE` AS `売上先コード`,`m_torihiki`.`TORIHIKISAKI_NAME` AS `売上先名称`,`m_torihiki`.`POST_CODE` AS `売上先郵便番号`,`m_torihiki`.`ADDRESS` AS `売上先住所`,`t_juchu`.`NONYUSAKI` AS `納入先（送り先）名称`,`t_juchu`.`TANPIN_IRAI_BUKKEN_NAME` AS `受注物件名`,`t_juchu`.`IRAI_DATE` AS `受注日`,`t_juchu`.`KOJO_SHUKKA_YOTEI_DATE` AS `出荷予定日`,`t_juchu`.`SEIBAN` AS `ヘッダー製番（機械工番）`,`t_juchu`.`TEHAI_KOBAN` AS `手配工番`,`t_juchum`.`HINBAN` AS `品番（部品コード）`,`t_juchum`.`SURYO` AS `数量`,`t_juchum`.`HANBAI_TANKA` AS `販売単価`,`t_juchum`.`HANBAI_KINGAKU` AS `販売金額`,`t_juchum`.`SEIBAN` AS `明細製番`,`m_hinban`.`HINMEI` AS `部品名称`,`m_hinban`.`KIKAKU` AS `規格・寸法`,`m_hinban`.`TANABAN` AS `ロケーション（棚番）`,`m_hinban`.`KAITEI_SEQ_NBR` AS `最新改訂通番`,`m_name`.`MEISHO` AS `単位名称` from ((((`tjuchu` `t_juchu` join `tjuchum` `t_juchum` on((`t_juchu`.`JUCHU_NBR` = `t_juchum`.`JUCHU_NBR`))) left join `mtorihiki` `m_torihiki` on(((`t_juchu`.`KIGYO_CODE` = `m_torihiki`.`KIGYO_CODE`) and (`t_juchu`.`TORIHIKISAKI_CODE` = `m_torihiki`.`TORIHIKISAKI_CODE`) and (ifnull(`m_torihiki`.`DELETE_FLG`,0) = 0)))) left join `vw_mhinban` `m_hinban` on((`t_juchum`.`HINBAN` = `m_hinban`.`HINBAN`))) left join `mname` `m_name` on(((`m_hinban`.`TANI_CODE` = `m_name`.`MEISHO_CODE`) and (`m_name`.`MEISHO_KUBUN` = 48)))) where (`t_juchu`.`TEHAI_KOBAN` like 'P%')",
+    "CreateViewSql": "select `t_juchu`.`JUCHU_NBR` AS `受注No（工事№）`,`t_juchu`.`CHUMONSHO_NBR` AS `注文番号`,`t_juchu`.`TORIHIKISAKI_CODE` AS `売上先コード`,`m_torihiki`.`TORIHIKISAKI_NAME` AS `売上先名称`,`m_torihiki`.`POST_CODE` AS `売上先郵便番号`,`m_torihiki`.`ADDRESS` AS `売上先住所`,`t_juchu`.`NONYUSAKI` AS `納入先コード`,`m_nonyusaki`.`TORIHIKISAKI_NAME` AS `納入先名称`,`m_nonyusaki`.`POST_CODE` AS `納入先郵便番号`,`m_nonyusaki`.`ADDRESS` AS `納入先住所`,`m_nonyusaki`.`PHONE_NBR1` AS `納入先電話番号`,`t_juchu`.`TANPIN_IRAI_BUKKEN_NAME` AS `受注物件名`,`t_juchu`.`IRAI_DATE` AS `受注日`,`t_juchu`.`KOJO_SHUKKA_YOTEI_DATE` AS `出荷予定日`,`t_juchu`.`SEIBAN` AS `ヘッダー製番（機械工番）`,`t_juchu`.`TEHAI_KOBAN` AS `手配工番`,`t_juchum`.`HINBAN` AS `品番（部品コード）`,`t_juchum`.`SURYO` AS `数量`,`t_juchum`.`HANBAI_TANKA` AS `販売単価`,`t_juchum`.`HANBAI_KINGAKU` AS `販売金額`,`t_juchum`.`SEIBAN` AS `明細製番`,`m_hinban`.`HINMEI` AS `部品名称`,`m_hinban`.`KIKAKU` AS `規格・寸法`,`m_hinban`.`TANABAN` AS `ロケーション（棚番）`,`m_hinban`.`KAITEI_SEQ_NBR` AS `最新改訂通番`,`m_name`.`MEISHO` AS `単位名称` from (((((`tjuchu` `t_juchu` join `tjuchum` `t_juchum` on((`t_juchu`.`JUCHU_NBR` = `t_juchum`.`JUCHU_NBR`))) left join `mtorihiki` `m_torihiki` on(((`t_juchu`.`KIGYO_CODE` = `m_torihiki`.`KIGYO_CODE`) and (`t_juchu`.`TORIHIKISAKI_CODE` = `m_torihiki`.`TORIHIKISAKI_CODE`) and (ifnull(`m_torihiki`.`DELETE_FLG`,0) = 0)))) left join `mtorihiki` `m_nonyusaki` on(((`t_juchu`.`KIGYO_CODE` = `m_nonyusaki`.`KIGYO_CODE`) and (`t_juchu`.`NONYUSAKI` = `m_nonyusaki`.`TORIHIKISAKI_CODE`) and (ifnull(`m_nonyusaki`.`DELETE_FLG`,0) = 0)))) left join `vw_mhinban` `m_hinban` on((`t_juchum`.`HINBAN` = `m_hinban`.`HINBAN`))) left join `mname` `m_name` on(((`m_hinban`.`TANI_CODE` = `m_name`.`MEISHO_CODE`) and (`m_name`.`MEISHO_KUBUN` = 48)))) where (`t_juchu`.`TEHAI_KOBAN` like 'P%')",
     "ViewInfo": {
       "ViewName": "ymia_v_tjuchum",
       "IsUpdatable": true,

@@ -91,7 +91,7 @@
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 5,
-      "Name": "ロケーション",
+      "Name": "倉出工程",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -125,6 +125,13 @@
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
+      "MaxLength": 20,
+      "Name": "ロケーション",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
       "MaxLength": 50,
       "Name": "単位名称",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
@@ -135,7 +142,7 @@
     "ConnectionId": "MySql1",
     "SourceTableName": "ymia_v_pban_chumon",
     "SourceTableSchema": "",
-    "CreateViewSql": "select `t_juchu`.`JUCHU_NBR` AS `受注No`,`t_juchu`.`TORIHIKISAKI_CODE` AS `売上先コード`,`t_juchu`.`CHUMONSHO_NBR` AS `注文番号`,`t_juchu`.`SEIBAN` AS `ヘッダー製番（機械工番）`,`t_buhink`.`SEIBAN` AS `手配工番`,`t_juchum`.`HINBAN` AS `仕組部品コード`,`t_juchum`.`SURYO` AS `受注数量`,`t_juchum`.`HANBAI_TANKA` AS `受注単価`,`t_buhink`.`KOBAN` AS `明細製番`,`t_buhink`.`HINBAN` AS `子部品コード`,`t_buhink`.`SURYO` AS `構成数量`,`t_buhink`.`KOSEI_NAME` AS `子部品名称`,`t_buhink`.`KURADASHI_KOTEI` AS `ロケーション`,`t_buhink`.`KIKAKU` AS `規格・寸法`,`m_hinban`.`HINMEI` AS `品名`,`m_hinban`.`KEISHIKI` AS `仕様詳細`,`m_hinban`.`KAITEI_SEQ_NBR` AS `最新改訂通番`,`m_name`.`MEISHO` AS `単位名称` from ((((`tbuhink` `t_buhink` left join `tjuchu` `t_juchu` on(((`t_buhink`.`SEIBAN` = `t_juchu`.`TEHAI_KOBAN`) and (ifnull(`t_juchu`.`DELETE_FLG`,0) = 0)))) left join `tjuchum` `t_juchum` on(((`t_juchu`.`JUCHU_NBR` = `t_juchum`.`JUCHU_NBR`) and (`t_buhink`.`KOBAN` = `t_juchum`.`SEIBAN`)))) left join `mhinban` `m_hinban` on(((`t_buhink`.`HINBAN` = `m_hinban`.`HINBAN`) and (`m_hinban`.`KAITEI_SEQ_NBR` = (select max(`sub`.`KAITEI_SEQ_NBR`) from `mhinban` `sub` where (`sub`.`HINBAN` = `t_buhink`.`HINBAN`)))))) left join `mname` `m_name` on(((`m_hinban`.`TANI_CODE` = `m_name`.`MEISHO_CODE`) and (`m_name`.`MEISHO_KUBUN` = 48))))",
+    "CreateViewSql": "select `t_juchu`.`JUCHU_NBR` AS `受注No`,`t_juchu`.`TORIHIKISAKI_CODE` AS `売上先コード`,`t_juchu`.`CHUMONSHO_NBR` AS `注文番号`,`t_juchu`.`SEIBAN` AS `ヘッダー製番（機械工番）`,`t_buhink`.`SEIBAN` AS `手配工番`,`t_juchum`.`HINBAN` AS `仕組部品コード`,`t_juchum`.`SURYO` AS `受注数量`,`t_juchum`.`HANBAI_TANKA` AS `受注単価`,`t_buhink`.`KOBAN` AS `明細製番`,`t_buhink`.`HINBAN` AS `子部品コード`,`t_buhink`.`SURYO` AS `構成数量`,`t_buhink`.`KOSEI_NAME` AS `子部品名称`,`t_buhink`.`KURADASHI_KOTEI` AS `倉出工程`,`t_buhink`.`KIKAKU` AS `規格・寸法`,`m_hinban`.`HINMEI` AS `品名`,`m_hinban`.`KEISHIKI` AS `仕様詳細`,`m_hinban`.`KAITEI_SEQ_NBR` AS `最新改訂通番`,`m_hinban`.`TANABAN` AS `ロケーション`,`m_name`.`MEISHO` AS `単位名称` from ((((`tbuhink` `t_buhink` left join `tjuchu` `t_juchu` on(((`t_buhink`.`SEIBAN` = `t_juchu`.`TEHAI_KOBAN`) and (ifnull(`t_juchu`.`DELETE_FLG`,0) = 0)))) left join `tjuchum` `t_juchum` on(((`t_juchu`.`JUCHU_NBR` = `t_juchum`.`JUCHU_NBR`) and (`t_buhink`.`KOBAN` = `t_juchum`.`SEIBAN`)))) left join `mhinban` `m_hinban` on(((`t_buhink`.`HINBAN` = `m_hinban`.`HINBAN`) and (`m_hinban`.`KAITEI_SEQ_NBR` = (select max(`sub`.`KAITEI_SEQ_NBR`) from `mhinban` `sub` where (`sub`.`HINBAN` = `t_buhink`.`HINBAN`)))))) left join `mname` `m_name` on(((`m_hinban`.`TANI_CODE` = `m_name`.`MEISHO_CODE`) and (`m_name`.`MEISHO_KUBUN` = 48)))) where ((`t_buhink`.`HINBAN` is not null) and (trim(`t_buhink`.`HINBAN`) <> '') and (`t_juchum`.`HINBAN` is not null) and (trim(`t_juchum`.`HINBAN`) <> ''))",
     "ViewInfo": {
       "ViewName": "ymia_v_pban_chumon",
       "IsUpdatable": true,
