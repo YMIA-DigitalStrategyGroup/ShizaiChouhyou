@@ -68,7 +68,16 @@
   },
   {
     "ModuleName": "TableView/ymia_v_thatchu",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-11-20T08:21:52.8757989+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\ymia_v_thatchu.json"
+    ]
   },
   {
     "ModuleName": "Table/thatchu",
