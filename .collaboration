@@ -13,29 +13,11 @@
   },
   {
     "ModuleName": "Table/tjuchum",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-10T11:43:57.7657873+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\材料売上伝票\\tjuchum.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tjuchu",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-10T11:43:57.7658075+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\材料売上伝票\\tjuchu.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/t_shukka_yotei",
@@ -43,16 +25,7 @@
   },
   {
     "ModuleName": "TableView/ymia_v_tjuchum",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-10T11:43:57.7658113+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\材料売上伝票\\ymia_v_tjuchum.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "TableView/ymia_v_pban_shikumi",
@@ -312,16 +285,7 @@
   },
   {
     "ModuleName": "TableView/ymia_v_pban_chumon",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-10T11:43:57.7658176+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\ymia_v_pban_chumon.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "PageReport/P番伝票(仕組)_修正版",
