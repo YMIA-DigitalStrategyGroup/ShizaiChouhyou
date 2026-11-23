@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
-	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report11111111111111111111111111111</dd:Name>
+	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report111111111111111111111111111111</dd:Name>
 	<Body>
 		<Height>29.7cm</Height>
 		<ReportItems>
@@ -422,8 +422,8 @@
 																</BorderStyle>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<DataElementName>ロケーション</DataElementName>
-															<Value />
+															<DataElementName>伝票番号</DataElementName>
+															<Value>=Fields!伝票番号.Value</Value>
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -5719,7 +5719,7 @@
 		</DataSource>
 		<DataSource Name="P番階層情報">
 			<ConnectionProperties>
-				<ConnectString>jsondoc=http://localhost:12957/Forguncy/ARDataSource/GetDataSource/95caaf80-014b-4f11-9b68-eaa7e655ae73;schemadata={"type":"array","items":{"type":"object","properties":{"受注No":{"type":"integer"},"売上先コード":{"type":"string"},"注文番号":{"type":"string"},"ヘッダー製番_機械工番_":{"type":"string"},"手配工番":{"type":"string"},"仕組部品コード":{"type":"string"},"受注数量":{"type":"number"},"受注単価":{"type":"number"},"明細製番":{"type":"string"},"子部品コード":{"type":"string"},"構成数量":{"type":"number"},"子部品名称":{"type":"string"},"ロケーション":{"type":"string"},"規格_寸法":{"type":"string"},"品名":{"type":"string"},"仕様詳細":{"type":"string"},"最新改訂通番":{"type":"integer"},"単位名称":{"type":"string"}}}}</ConnectString>
+				<ConnectString>jsondoc=http://localhost:12957/Forguncy/ARDataSource/GetDataSource/95caaf80-014b-4f11-9b68-eaa7e655ae73;schemadata={"type":"array","items":{"type":"object","properties":{"受注No":{"type":"integer"},"売上先コード":{"type":"string"},"注文番号":{"type":"string"},"ヘッダー製番_機械工番_":{"type":"string"},"手配工番":{"type":"string"},"仕組部品コード":{"type":"string"},"受注数量":{"type":"number"},"受注単価":{"type":"number"},"明細製番":{"type":"string"},"子部品コード":{"type":"string"},"構成数量":{"type":"number"},"子部品名称":{"type":"string"},"ロケーション":{"type":"string"},"規格_寸法":{"type":"string"},"品名":{"type":"string"},"仕様詳細":{"type":"string"},"最新改訂通番":{"type":"integer"},"単位名称":{"type":"string"},"伝票番号":{"type":"integer"}}}}</ConnectString>
 				<DataProvider>JSON</DataProvider>
 			</ConnectionProperties>
 		</DataSource>
@@ -5851,6 +5851,9 @@
 				</Field>
 				<Field Name="単位名称">
 					<DataField>単位名称</DataField>
+				</Field>
+				<Field Name="伝票番号">
+					<DataField>伝票番号</DataField>
 				</Field>
 			</Fields>
 			<Query>

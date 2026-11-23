@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
-	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report11111111111111111111111111</dd:Name>
+	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report111111111111111111111111111</dd:Name>
 	<Body>
 		<Height>29.7cm</Height>
 		<ReportItems>
@@ -538,10 +538,12 @@
 																<FontSize>=Theme.Fonts!MinorFont.Size</FontSize>
 																<FontStyle>=Theme.Fonts!MinorFont.Style</FontStyle>
 																<FontWeight>=Theme.Fonts!MinorFont.Weight</FontWeight>
+																<Format>n0</Format>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
 																<PaddingRight>2pt</PaddingRight>
 																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Right</TextAlign>
 																<BorderStyle>
 																	<Left>Groove</Left>
 																</BorderStyle>
@@ -586,10 +588,12 @@
 																<FontSize>=Theme.Fonts!MinorFont.Size</FontSize>
 																<FontStyle>=Theme.Fonts!MinorFont.Style</FontStyle>
 																<FontWeight>=Theme.Fonts!MinorFont.Weight</FontWeight>
+																<Format>n0</Format>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
 																<PaddingRight>2pt</PaddingRight>
 																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Right</TextAlign>
 																<BorderStyle>
 																	<Left>Groove</Left>
 																	<Right>Solid</Right>
@@ -626,7 +630,8 @@
 																</BorderStyle>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<Value />
+															<DataElementName>伝票番号</DataElementName>
+															<Value>=Fields!伝票番号.Value</Value>
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -738,10 +743,12 @@
 																<FontSize>=Theme.Fonts!MinorFont.Size</FontSize>
 																<FontStyle>=Theme.Fonts!MinorFont.Style</FontStyle>
 																<FontWeight>=Theme.Fonts!MinorFont.Weight</FontWeight>
+																<Format>n0</Format>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
 																<PaddingRight>2pt</PaddingRight>
 																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Right</TextAlign>
 																<BorderStyle>
 																	<Bottom>Groove</Bottom>
 																	<Left>Groove</Left>
@@ -1442,7 +1449,7 @@
 	<DataSources>
 		<DataSource Name="P番_単品_">
 			<ConnectionProperties>
-				<ConnectString>jsondoc=http://localhost:12957/Forguncy/ARDataSource/GetDataSource/a5680ea3-dea3-47a9-ad33-1902865772b8;schemadata={"type":"array","items":{"type":"object","properties":{"受注No_工事__":{"type":"integer"},"注文番号":{"type":"string"},"売上先コード":{"type":"string"},"受注日":{"type":"date-time"},"出荷予定日":{"type":"date-time"},"ヘッダー製番_機械工番_":{"type":"string"},"手配工番":{"type":"string"},"品番_部品コード_":{"type":"string"},"数量":{"type":"number"},"販売単価":{"type":"number"},"販売金額":{"type":"number"},"明細製番":{"type":"string"},"売上先住所":{"type":"string"},"売上先郵便番号":{"type":"string"},"部品名称":{"type":"string"},"規格_寸法":{"type":"string"},"ロケーション_棚番_":{"type":"string"},"単位名称":{"type":"string"},"売上先名称":{"type":"string"},"納入先コード":{"type":"string"},"納入先名称":{"type":"string"},"納入先郵便番号":{"type":"string"},"納入先住所":{"type":"string"},"納入先電話番号":{"type":"string"},"受注物件名":{"type":"string"},"最新改訂通番":{"type":"integer"}}}}</ConnectString>
+				<ConnectString>jsondoc=http://localhost:12957/Forguncy/ARDataSource/GetDataSource/a5680ea3-dea3-47a9-ad33-1902865772b8;schemadata={"type":"array","items":{"type":"object","properties":{"受注No_工事__":{"type":"integer"},"注文番号":{"type":"string"},"売上先コード":{"type":"string"},"受注日":{"type":"date-time"},"出荷予定日":{"type":"date-time"},"ヘッダー製番_機械工番_":{"type":"string"},"手配工番":{"type":"string"},"品番_部品コード_":{"type":"string"},"数量":{"type":"number"},"販売単価":{"type":"number"},"販売金額":{"type":"number"},"明細製番":{"type":"string"},"売上先住所":{"type":"string"},"売上先郵便番号":{"type":"string"},"部品名称":{"type":"string"},"規格_寸法":{"type":"string"},"ロケーション_棚番_":{"type":"string"},"単位名称":{"type":"string"},"売上先名称":{"type":"string"},"納入先コード":{"type":"string"},"納入先名称":{"type":"string"},"納入先郵便番号":{"type":"string"},"納入先住所":{"type":"string"},"納入先電話番号":{"type":"string"},"受注物件名":{"type":"string"},"最新改訂通番":{"type":"integer"},"伝票番号":{"type":"integer"}}}}</ConnectString>
 				<DataProvider>JSON</DataProvider>
 			</ConnectionProperties>
 		</DataSource>
@@ -1533,6 +1540,9 @@
 				</Field>
 				<Field Name="最新改訂通番">
 					<DataField>最新改訂通番</DataField>
+				</Field>
+				<Field Name="伝票番号">
+					<DataField>伝票番号</DataField>
 				</Field>
 			</Fields>
 			<Query>
