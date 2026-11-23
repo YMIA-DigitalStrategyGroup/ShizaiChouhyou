@@ -7,13 +7,13 @@
   },
   "Values": {
     "2,1": "製番",
-    "2,11": "取引先CD",
-    "2,17": "取引先名",
+    "2,11": "納入先CD",
+    "2,17": "納入先名",
     "2,33": "検索",
     "2,39": "クリア",
     "5,7": "製番",
-    "5,19": "取引先CD",
-    "5,25": "取引先名",
+    "5,19": "納入先CD",
+    "5,25": "納入先名",
     "5,37": "受注物件名",
     "5,50": "EDI区分",
     "5,53": "区分",
@@ -239,15 +239,15 @@
     "6,19": {
       "BindingInfo": {
         "TableName": "ymia_v_tjuchu",
-        "ColumnName": "取引先コード",
-        "GUID": "0bac16c0-7cf6-4fef-8b91-1128c8609dbc"
+        "ColumnName": "納入先コード",
+        "GUID": "9f2b1d05-1cfa-4392-afb8-769c3c62d478"
       }
     },
     "6,25": {
       "BindingInfo": {
         "TableName": "ymia_v_tjuchu",
-        "ColumnName": "取引先名",
-        "GUID": "e68a06c4-75e0-4169-a20f-407ae769fe08"
+        "ColumnName": "納入先略名",
+        "GUID": "0753e91d-5561-40f1-8c6a-e9ed7a8a1c58"
       }
     },
     "6,37": {
@@ -549,10 +549,6 @@
     "5,7,1,6",
     "6,13,1,6",
     "5,13,1,6",
-    "6,19,1,6",
-    "5,19,1,6",
-    "6,25,1,12",
-    "5,25,1,12",
     "6,37,1,13",
     "5,37,1,13",
     "6,50,1,3",
@@ -563,7 +559,11 @@
     "5,62,1,11",
     "7,1,33,73",
     "6,53,1,3",
-    "5,53,1,3"
+    "5,53,1,3",
+    "6,19,1,6",
+    "5,19,1,6",
+    "6,25,1,12",
+    "5,25,1,12"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -590,4 +590,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//OGoYQXVdG158Id/BcPmdjimA2eiwKYRYoShM01OcP8IiC7lGFOTCvSVyL87SbIHt78BTw7YDy5OFFyQNwhNkTBx+qcoh3rU2/kfL1boarsKYzPGG9CTDekSP3mUZGA4Sf/DmrQpaIL4oPp9jIWtNy6QuQ54+1LSE/urSouf1m8bc6lv0d1MTqjNTrIFdsWTq6Zx4sc3a+TTYLt7odicnsKimjMUcxtGybf20zKNfCwhBpxqdZ1sFu7bFlOh/UGlDm86sqBBdWiiJnJoJKd1fTzP0MN0snrRnO/sL8ZarmrpVEWM8zOhmj/g1ghlyvA3bc12bR5aH3GggEGN6T6go06DpWzueRWZB5dk+dO8URww06bD72y4gk6NWd0U42kbwlWelDCM3tVw4LRyJVz1m0QoZmb/iC3EBR1NAOq3YoOHmnAveKlZzUkDbjVYcq16oaM3SwDWOVuI9X4b+dZWfPoOfT8u+twruK/qq0L62XzdfZIa1YK3LnZXXxPD9S08WLSTRJmvsX4r8UoqVpLyz7hwKTSLcChq1rdPnZs/h/PScYSbZq50MBAuGCWmIzxmzaIlERSIXbHqpBVxBLyN514aZdcHvahpbvfCuCB2Y745WcsxHBYNIJDaAAQ8KboYew46M7Zph3gI2VPWo/lNVM9WAa4IdDdMPBJVzJbWTDfpq+ODpaSE8dR4PG1RNEREaxdPyapY52Bn3wMlCzsPSaQTLb+JoE0C/0DN4CiBuCE203E3J9vReE4FNanE/GUh0JQkPFMAMYZeHdnWYHbP1ULkgF522mrjjQaat3DwAf5BCIkNTe2qAD9yGql7xsaQEOSJCVuH49P7sx6z7xT91r+0r/QUAc1NbDpOn/Z8ymjDV+C5nopmlJJpnjBQmOiUtX96ixPCjg3pEsnEvf0TvEA==|920
+}//GfLUQe2y7r4/dQlJzmYgdj09p5hmCXC5GUe1wFXD5EbwL2MByFCfv5gveLisAonRhTZxWaHbrThKeHQSh1+XXf/QBkBr8ZQ8sjF57LvaRf3cqMQpbQUYAZTuk8Chp2G0zrYWTBSlVdbxhD+MFjnUjD9IeAFkqDFSW+/O05kcow64kOrd2EQ/+udfL35OU1ONwdTJBj0T9//xj19oDywpaSQqt43QfbLwlFgZLzzIz1WsSNV/kBRkDSEtnS073Qp2gb1MsXChFDXOzvXbvz4JhVvuzHF45a5CKSqedpmrc7gh/KnoLtvGpkqP/9sagQTfgLJRGjRiZtziwS3zRhTU8jerNhUWH7eK4TGvH64pZpLDiT/ulB9fQGAWzENy9/FW4LFgGtd0jbwELMedO1v/YBXZYseqTXGymfA8KUV54Gs72P5uThtpPsfQhstP3UHh0r2mVQKepeq93kkIGi9r62sSJh5jYtsPMADgNxTrbD+SQ9Gc92IYaprOTWkWYPdcHKDDJGUJb03e4v/xCV+CSHYbeEuaCJtlebxiQwOi3Ofl3TQC8vnCWNA5WX5HOuWN5yAXKZ9gLz57Q7m7htinK0piYDj54W0GRsCnRUT/W3+uw5/AEG+HCkm/QiuOqYoPaBfG4y3lwqjeqUKau+AHWzgRRG0ZQ8e7/wE1fHaZSa/RK0YNQIAudR55L6Ngp48OAsN3ruXfkzLFJRUfgW3dAaSVgledaMMIm5knXgkD8ZdD0nn7SH5ZjHOV85z2iW0/oLCbHt5iTaLfYgwwb5t/naPO3yQAAEhwSdodBD4oNSJT5FZWZYK62lQRUSDLQ7fXbpP8yHr5th6vTXIbQQgc595HBZpud7wxqJ6qfMeiqMCAU87ENZiil3rGqSFnLrauMpaD95wneCqyGw8+Zl9XcA==|920

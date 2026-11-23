@@ -25,16 +25,7 @@
   },
   {
     "ModuleName": "TableView/ymia_v_tjuchum",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-23T17:20:03.543457+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\材料売上伝票\\ymia_v_tjuchum.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "TableView/ymia_v_pban_shikumi",
@@ -166,17 +157,7 @@
   },
   {
     "ModuleName": "PCPage/材料売上伝票一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-23T17:48:33.620229+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\材料売上伝票\\材料売上伝票一覧.json",
-      "Pages\\材料売上伝票\\材料売上伝票一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/発注書発行",
@@ -212,17 +193,7 @@
   },
   {
     "ModuleName": "PageReport/P番伝票(単品)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-23T16:58:01.4700927+09:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\材料売上伝票\\P番伝票(単品).json",
-      "Reports\\材料売上伝票\\P番伝票(単品).rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "PageReport/P番伝票(仕組)",
@@ -322,30 +293,11 @@
   },
   {
     "ModuleName": "PCPage/材料売上伝票一覧_新",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-23T16:54:25.0991693+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\材料売上伝票\\材料売上伝票一覧_新.json",
-      "Pages\\材料売上伝票\\材料売上伝票一覧_新.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "TableView/ymia_v_tjuchu",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-23T16:54:05.7393567+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\材料売上伝票\\ymia_v_tjuchu.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Table/mname",
