@@ -304,7 +304,16 @@
   },
   {
     "ModuleName": "TableView/ymia_v_pban_chumon",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-11-23T10:56:45.707942+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\ymia_v_pban_chumon.json"
+    ]
   },
   {
     "ModuleName": "PageReport/P番伝票(仕組)_修正版",
