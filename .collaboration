@@ -207,7 +207,17 @@
   },
   {
     "ModuleName": "PageReport/P番伝票(仕組)",
-    "ModuleType": 17
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-11-24T08:53:35.64289+09:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\材料売上伝票\\P番伝票(仕組).json",
+      "Reports\\材料売上伝票\\P番伝票(仕組).rdlx"
+    ]
   },
   {
     "ModuleName": "ApplicationSetting",
