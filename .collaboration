@@ -290,5 +290,15 @@
   {
     "ModuleName": "PageReport/P番伝票(仕組)_修正版",
     "ModuleType": 17
+  },
+  {
+    "ModuleName": "PCPage/材料売上伝票一覧_新",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-11-23T09:35:10.5328597+09:00",
+    "ModuleType": 1
   }
 ]
