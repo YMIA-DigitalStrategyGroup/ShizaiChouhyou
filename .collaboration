@@ -193,31 +193,11 @@
   },
   {
     "ModuleName": "PageReport/P番伝票(単品)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-24T08:46:32.1009056+09:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\材料売上伝票\\P番伝票(単品).json",
-      "Reports\\材料売上伝票\\P番伝票(単品).rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "PageReport/P番伝票(仕組)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-24T08:53:35.64289+09:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\材料売上伝票\\P番伝票(仕組).json",
-      "Reports\\材料売上伝票\\P番伝票(仕組).rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "ApplicationSetting",
@@ -309,17 +289,7 @@
   },
   {
     "ModuleName": "PageReport/P番伝票(仕組)_修正版",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-24T09:06:59.6214802+09:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\材料売上伝票\\P番伝票(仕組)_修正版.json",
-      "Reports\\材料売上伝票\\P番伝票(仕組)_修正版.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "PCPage/材料売上伝票一覧_新",

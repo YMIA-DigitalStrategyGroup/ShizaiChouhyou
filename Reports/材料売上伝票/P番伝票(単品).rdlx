@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
-	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report1111111111111111111111111111111</dd:Name>
+	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report11111111111111111111111111111111</dd:Name>
 	<Body>
 		<Height>29.7cm</Height>
 		<ReportItems>
@@ -529,23 +529,25 @@
 													</ReportItems>
 												</TableCell>
 												<TableCell>
+													<dd:RowSpan xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">2</dd:RowSpan>
 													<ReportItems>
 														<Textbox Name="TextBox39">
 															<Style>
 																<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 																<Color>=Theme.Colors!Dark1</Color>
 																<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
-																<FontSize>=Theme.Fonts!MinorFont.Size</FontSize>
+																<FontSize>11pt</FontSize>
 																<FontStyle>=Theme.Fonts!MinorFont.Style</FontStyle>
-																<FontWeight>=Theme.Fonts!MinorFont.Weight</FontWeight>
+																<FontWeight>700</FontWeight>
 																<Format>n0</Format>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
 																<PaddingRight>2pt</PaddingRight>
 																<PaddingTop>2pt</PaddingTop>
 																<TextAlign>Right</TextAlign>
+																<VerticalAlign>Middle</VerticalAlign>
 																<BorderStyle>
-																	<Left>Groove</Left>
+																	<Default>Groove</Default>
 																</BorderStyle>
 															</Style>
 															<CanGrow>true</CanGrow>
@@ -555,19 +557,20 @@
 													</ReportItems>
 												</TableCell>
 												<TableCell>
+													<dd:RowSpan xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">2</dd:RowSpan>
 													<ReportItems>
 														<Textbox Name="TextBox40">
 															<Style>
 																<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 																<Color>=Theme.Colors!Dark1</Color>
 																<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
-																<FontSize>=Theme.Fonts!MinorFont.Size</FontSize>
+																<FontSize>11pt</FontSize>
 																<FontStyle>=Theme.Fonts!MinorFont.Style</FontStyle>
-																<FontWeight>=Theme.Fonts!MinorFont.Weight</FontWeight>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
 																<PaddingRight>2pt</PaddingRight>
 																<PaddingTop>2pt</PaddingTop>
+																<VerticalAlign>Middle</VerticalAlign>
 																<BorderStyle>
 																	<Left>Groove</Left>
 																</BorderStyle>
@@ -624,6 +627,7 @@
 																<PaddingLeft>2pt</PaddingLeft>
 																<PaddingRight>2pt</PaddingRight>
 																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Left</TextAlign>
 																<BorderStyle>
 																	<Bottom>Groove</Bottom>
 																	<Left>Groove</Left>
@@ -682,54 +686,6 @@
 															<CanGrow>true</CanGrow>
 															<DataElementName>規格_寸法</DataElementName>
 															<Value>=Fields.Item("規格_寸法").Value</Value>
-														</Textbox>
-													</ReportItems>
-												</TableCell>
-												<TableCell>
-													<ReportItems>
-														<Textbox Name="TextBox36">
-															<Style>
-																<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
-																<Color>=Theme.Colors!Dark1</Color>
-																<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
-																<FontSize>=Theme.Fonts!MinorFont.Size</FontSize>
-																<FontStyle>=Theme.Fonts!MinorFont.Style</FontStyle>
-																<FontWeight>=Theme.Fonts!MinorFont.Weight</FontWeight>
-																<PaddingBottom>2pt</PaddingBottom>
-																<PaddingLeft>2pt</PaddingLeft>
-																<PaddingRight>2pt</PaddingRight>
-																<PaddingTop>2pt</PaddingTop>
-																<BorderStyle>
-																	<Bottom>Groove</Bottom>
-																	<Left>Groove</Left>
-																</BorderStyle>
-															</Style>
-															<CanGrow>true</CanGrow>
-															<Value />
-														</Textbox>
-													</ReportItems>
-												</TableCell>
-												<TableCell>
-													<ReportItems>
-														<Textbox Name="TextBox37">
-															<Style>
-																<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
-																<Color>=Theme.Colors!Dark1</Color>
-																<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
-																<FontSize>=Theme.Fonts!MinorFont.Size</FontSize>
-																<FontStyle>=Theme.Fonts!MinorFont.Style</FontStyle>
-																<FontWeight>=Theme.Fonts!MinorFont.Weight</FontWeight>
-																<PaddingBottom>2pt</PaddingBottom>
-																<PaddingLeft>2pt</PaddingLeft>
-																<PaddingRight>2pt</PaddingRight>
-																<PaddingTop>2pt</PaddingTop>
-																<BorderStyle>
-																	<Bottom>Groove</Bottom>
-																	<Left>Groove</Left>
-																</BorderStyle>
-															</Style>
-															<CanGrow>true</CanGrow>
-															<Value />
 														</Textbox>
 													</ReportItems>
 												</TableCell>
